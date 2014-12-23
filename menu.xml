@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GBK"?>
+<root>
+	<node id="1" name="测试" >
+		<item id="101" name="测试1" uid="cdc#UID111111111" />
+		<item id="102" name="待添加" uid="cam#UID010306" />	
+		<item id="103" name="待添加" uid="cam#UID010301" />
+		<item id="104" name="待添加" uid="cam#UID010305" />		
+	</node>
+	<node id="2" name="培训" >
+		<item id="202" name="主页面" uid="buc#UIDuid1000" />
+		<item ID="203" name="培训考核模仿" uid="buc#UIDuid2000" />
+		<item ID="204" name="树控件考核" uid="buc#UIDuid6000" />	
+		<item ID="205" name="毕业设计" uid="buc#UIDuid9100" />
+		<item ID="206" name="数据库考核页面" uid="buc#UIDuid8000" />
+		<item ID="208" name="1225树考核" uid="buc#UIDlih130001" />
+		<item ID="209" name="1225树考核" uid="buc#UIDlih130002" />
+	</node>
+</root>

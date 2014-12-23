@@ -1,0 +1,73 @@
+
+13/03/29 16:40:40 错误 ZPLClientUtil writeLog #347
+调用服务cdc#SVzplRight01006发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+13/04/02 19:32:13 错误 YummyClientUtil writeLog #28
+调用服务buc#SVyummyMain01006发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+13/04/02 19:33:45 错误 YummyClientUtil writeLog #28
+调用服务buc#SVyummyMain01006发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+13/04/02 19:34:42 错误 YummyClientUtil writeLog #28
+调用服务buc#SVyummyMain01006发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+13/04/02 19:36:24 错误 YummyClientUtil writeLog #28
+调用服务buc#SVyummyMain01006发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+13/04/02 19:38:22 错误 YummyClientUtil writeLog #28
+调用服务buc#SVyummyMain01006发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+13/04/08 19:20:45 错误 YummyClientUtil writeLog #28
+调用服务buc#SVyummyMain01006发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+13/04/12 11:08:22 错误 YummyClientUtil writeLog #28
+调用服务buc#SVyummyDB01001发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+13/04/12 11:11:32 错误 YummyClientUtil writeLog #28
+调用服务buc#SVyummyDB01001发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+13/08/05 11:18:17 错误 YummyClientUtil writeLog #28
+调用服务buc#SVbDesign01005发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+13/11/19 18:08:40 错误 YummyClientUtil writeLog #28
+调用服务buc#SVbDesign01005发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+13/11/19 18:08:44 错误 YummyClientUtil writeLog #28
+调用服务buc#SVbDesign01007发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+13/12/24 15:38:34 错误 YummyClientUtil writeLog #28
+调用服务buc#SVbDesign01001发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+13/12/24 16:18:09 错误 YummyClientUtil writeLog #28
+调用服务buc#SVbDesign01005发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+13/12/24 16:21:27 错误 YummyClientUtil writeLog #28
+调用服务buc#SVbDesign01005发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+13/12/24 16:21:38 错误 YummyClientUtil writeLog #28
+调用服务buc#SVbDesign01005发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+13/12/24 16:21:55 错误 YummyClientUtil writeLog #28
+调用服务buc#SVbDesign01005发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+13/12/25 14:17:27 错误 YummyClientUtil writeLog #28
+调用服务buc#SVtc0001发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+14/01/15 16:07:18 错误 YummyClientUtil writeLog #28
+调用服务buc#SV01010001发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+14/01/15 18:01:13 错误 YummyClientUtil writeLog #28
+调用服务buc#SV01010001发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+14/01/15 20:47:55 错误 YummyClientUtil writeLog #28
+调用服务buc#SV01010002发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+14/01/20 14:09:00 错误 YummyClientUtil writeLog #34
+调用服务buc#SVtc0001发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+14/01/20 14:15:50 错误 YummyClientUtil writeLog #34
+调用服务buc#SVtc0001发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+14/01/20 14:17:49 错误 YummyClientUtil writeLog #34
+调用服务buc#SVtc0001发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+14/01/20 14:21:33 错误 YummyClientUtil writeLog #34
+调用服务buc#SVtc0001发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+14/01/20 14:29:34 错误 YummyClientUtil writeLog #34
+调用服务01010001发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+14/01/20 14:30:17 错误 YummyClientUtil writeLog #34
+调用服务01010001发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+14/01/20 14:30:43 错误 YummyClientUtil writeLog #34
+调用服务01010001发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+14/01/20 14:33:48 错误 YummyClientUtil writeLog #34
+调用服务buc#SV01010001发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+14/01/20 14:35:07 错误 YummyClientUtil writeLog #34
+调用服务buc#SV01010001发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+14/01/20 14:40:33 错误 YummyClientUtil writeLog #34
+调用服务buc#SV01010001发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+14/01/20 14:46:07 错误 YummyClientUtil writeLog #34
+调用服务buc#SV01010001发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+14/01/20 14:48:40 错误 YummyClientUtil writeLog #34
+调用服务buc#SV01010001发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+14/01/21 10:48:02 错误 YummyClientUtil writeLog #43
+调用服务buc#SV01010001发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+14/01/22 09:35:28 错误 YummyClientUtil writeLog #43
+调用服务buc#SV01010001发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0
+14/01/22 09:35:33 错误 YummyClientUtil writeLog #43
+调用服务buc#SV01010001发生错误!具体信息建议查看日志PSH\UBMnSrvcHndlr.0

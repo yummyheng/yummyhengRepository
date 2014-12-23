@@ -1,0 +1,16 @@
+******************************************************************************** 
+*    发行系统配置文件，该配置文件用于客户端                                          
+*  说明: 	LastSelPath 	记录用户最后一次选择文件的路径,程序会更新此变量的值
+*   		FileSerUrlKey 	发行系统文件服务器地址
+*   		UpLoadRootPath 	发行系统上传文件的根目录
+*       	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                   
+*  作者：姜哲                                   创建日期:2012-5-7 15:00:00
+******************************************************************************** 
+*........1.........2.........3.........4.........5.........6 .  .  . 7 .  .  . 8 
+#111013_084845-5v27 Demok  10000 示例，请删除之，注意每行尽可能<60，因为Mark要占用20个字符   
+#120511_104205-QzI6 LastSelPath D:\
+#120509_160348-5Oin FileSerUrlKey http://10.41.240.6:9080/FileServer/services/fileService
+#120511_101251-jRzw UpLoadRootPath /FXSUploadRoot
+#120509_160348-aP1X FileBlackList exe,bat,rm,rmvb,chm,dll,mp4,mp3,avi
+#120509_160348-h0OR FilePromptSize 20971520
+#120509_160348-spNS FileLimitSize 104857600

@@ -1,0 +1,29 @@
+<AF.lg.AFLogRootModel>
+  <SysID>ZplServer</SysID>
+  <SysName>ZplServer系统日志</SysName>
+  <SysLvl>3</SysLvl>
+  <SysRunModel>D</SysRunModel>
+  <SysNote>ZplServer系统级日志</SysNote>
+  <Children>
+    <AF.lg.AFLogSubModel>
+      <SubID>General</SubID>
+      <SubName>General</SubName>
+      <SubSysNote>通用的log配置参数</SubSysNote>
+      <FileLimit>6000000</FileLimit>
+      <FileCount>3</FileCount>
+      <FileAppend>true</FileAppend>
+      <LogLevel>3</LogLevel>
+      <Parent reference="../../.."/>
+    </AF.lg.AFLogSubModel>
+    <AF.lg.AFLogSubModel>
+      <SubID>s01</SubID>
+      <SubName>子系统01</SubName>
+      <SubSysNote>子系统01 的log配置参数</SubSysNote>
+      <FileLimit>6000000</FileLimit>
+      <FileCount>3</FileCount>
+      <FileAppend>true</FileAppend>
+      <LogLevel>3</LogLevel>
+      <Parent reference="../../.."/>
+    </AF.lg.AFLogSubModel>
+  </Children>
+</AF.lg.AFLogRootModel>

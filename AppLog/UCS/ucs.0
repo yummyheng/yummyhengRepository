@@ -1,0 +1,865 @@
+
+13/03/20 15:29:21 严重 UBProcessor getScreen #-1 -> 创建屏幕时异常!! ucv=90010215 客户授权角色查询条件
+java.lang.NullPointerException
+cdc.uap.cntr.aem.authorize.query.EcrPopInitPrs.doPrscess(EcrPopInitPrs.java:17)
+UB.Processor.UBProcessor.doWVAfterPrs(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+AppMng.BUC_UID_Manage.createContents(BUC_UID_Manage.java:105)
+org.eclipse.jface.window.Window.create(Window.java:426)
+org.eclipse.jface.window.Window.open(Window.java:785)
+AppMng.BUC_UID_Manage.main(BUC_UID_Manage.java:83)
+13/03/21 15:20:56 错误 UBSimpleCtlMaker addActLsn #-1 -> custgrsign的监听器demo.lsn.GUIActiveLsn没有创建成功!!
+13/03/21 15:20:56 错误 UBSimpleCtlMaker addActLsn #-1 -> addr的监听器demo.lsn.GUIActiveLsn没有创建成功!!
+13/03/21 15:20:56 错误 UBSimpleCtlMaker addActLsn #-1 -> phonenum的监听器demo.lsn.GUIActiveLsn没有创建成功!!
+13/03/21 15:20:56 错误 UBSimpleCtlMaker makeLink #-1 -> 超链接Email 配置的监听器demo.lsn.GUILinkLsn,为null，没创建成功！！
+13/03/21 15:20:56 错误 UBSimpleCtlMaker makeTab #-1 -> 选项卡控件的选择监听器demo.lsn.TabSelectLsn没有创建成功!!
+13/03/21 15:21:29 错误 UBSimpleCtlMaker addActLsn #-1 -> custgrsign的监听器demo.lsn.GUIActiveLsn没有创建成功!!
+13/03/21 15:21:29 错误 UBSimpleCtlMaker addActLsn #-1 -> addr的监听器demo.lsn.GUIActiveLsn没有创建成功!!
+13/03/21 15:21:29 错误 UBSimpleCtlMaker addActLsn #-1 -> phonenum的监听器demo.lsn.GUIActiveLsn没有创建成功!!
+13/03/21 15:21:29 错误 UBSimpleCtlMaker makeLink #-1 -> 超链接Email 配置的监听器demo.lsn.GUILinkLsn,为null，没创建成功！！
+13/03/21 15:21:30 错误 UBSimpleCtlMaker makeTab #-1 -> 选项卡控件的选择监听器demo.lsn.TabSelectLsn没有创建成功!!
+13/03/21 15:34:49 错误 UBSimpleCtlMaker addActLsn #-1 -> custgrsign的监听器demo.lsn.GUIActiveLsn没有创建成功!!
+13/03/21 15:34:49 错误 UBSimpleCtlMaker addActLsn #-1 -> addr的监听器demo.lsn.GUIActiveLsn没有创建成功!!
+13/03/21 15:34:49 错误 UBSimpleCtlMaker addActLsn #-1 -> phonenum的监听器demo.lsn.GUIActiveLsn没有创建成功!!
+13/03/21 15:34:49 错误 UBSimpleCtlMaker makeLink #-1 -> 超链接Email 配置的监听器demo.lsn.GUILinkLsn,为null，没创建成功！！
+13/03/21 15:34:49 错误 UBSimpleCtlMaker makeTab #-1 -> 选项卡控件的选择监听器demo.lsn.TabSelectLsn没有创建成功!!
+13/03/21 16:05:23 错误 UBSimpleCtlMaker addActLsn #-1 -> custgrsign的监听器demo.lsn.GUIActiveLsn没有创建成功!!
+13/03/21 16:05:23 错误 UBSimpleCtlMaker addActLsn #-1 -> addr的监听器demo.lsn.GUIActiveLsn没有创建成功!!
+13/03/21 16:05:23 错误 UBSimpleCtlMaker addActLsn #-1 -> phonenum的监听器demo.lsn.GUIActiveLsn没有创建成功!!
+13/03/21 16:05:23 错误 UBSimpleCtlMaker makeLink #-1 -> 超链接Email 配置的监听器demo.lsn.GUILinkLsn,为null，没创建成功！！
+13/03/21 16:05:23 错误 UBSimpleCtlMaker makeTab #-1 -> 选项卡控件的选择监听器demo.lsn.TabSelectLsn没有创建成功!!
+13/03/21 16:10:03 错误 UBSimpleCtlMaker addActLsn #-1 -> custgrsign的监听器demo.lsn.GUIActiveLsn没有创建成功!!
+13/03/21 16:10:03 错误 UBSimpleCtlMaker addActLsn #-1 -> addr的监听器demo.lsn.GUIActiveLsn没有创建成功!!
+13/03/21 16:10:03 错误 UBSimpleCtlMaker addActLsn #-1 -> phonenum的监听器demo.lsn.GUIActiveLsn没有创建成功!!
+13/03/21 16:10:03 错误 UBSimpleCtlMaker makeLink #-1 -> 超链接Email 配置的监听器demo.lsn.GUILinkLsn,为null，没创建成功！！
+13/03/21 16:10:03 错误 UBSimpleCtlMaker makeTab #-1 -> 选项卡控件的选择监听器demo.lsn.TabSelectLsn没有创建成功!!
+13/03/21 16:11:24 错误 UBSimpleCtlMaker addActLsn #-1 -> custgrsign的监听器demo.lsn.GUIActiveLsn没有创建成功!!
+13/03/21 16:11:24 错误 UBSimpleCtlMaker addActLsn #-1 -> addr的监听器demo.lsn.GUIActiveLsn没有创建成功!!
+13/03/21 16:11:25 错误 UBSimpleCtlMaker addActLsn #-1 -> phonenum的监听器demo.lsn.GUIActiveLsn没有创建成功!!
+13/03/21 16:11:25 错误 UBSimpleCtlMaker makeLink #-1 -> 超链接Email 配置的监听器demo.lsn.GUILinkLsn,为null，没创建成功！！
+13/03/21 16:11:25 错误 UBSimpleCtlMaker makeTab #-1 -> 选项卡控件的选择监听器demo.lsn.TabSelectLsn没有创建成功!!
+13/03/21 16:14:36 错误 UBSimpleCtlMaker addActLsn #-1 -> custgrsign的监听器demo.lsn.GUIActiveLsn没有创建成功!!
+13/03/21 16:14:36 错误 UBSimpleCtlMaker addActLsn #-1 -> addr的监听器demo.lsn.GUIActiveLsn没有创建成功!!
+13/03/21 16:14:36 错误 UBSimpleCtlMaker addActLsn #-1 -> phonenum的监听器demo.lsn.GUIActiveLsn没有创建成功!!
+13/03/21 16:14:36 错误 UBSimpleCtlMaker makeLink #-1 -> 超链接Email 配置的监听器demo.lsn.GUILinkLsn,为null，没创建成功！！
+13/03/21 16:14:36 错误 UBSimpleCtlMaker makeTab #-1 -> 选项卡控件的选择监听器demo.lsn.TabSelectLsn没有创建成功!!
+13/03/22 16:42:50 严重 UBProcessor getScreen #-1 -> 创建屏幕时异常!! ucv=uid2000 培训考核模仿
+java.lang.NullPointerException
+UB.MakeUI.UBTableMaker.setTableColumn(Unknown Source)
+UB.MakeUI.UBTableMaker.creatTableHead(Unknown Source)
+UB.MakeUI.UBTableMaker.setUp(Unknown Source)
+UB.MakeUI.UBTableMaker.make(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.MakeUI.UBSimpleCtlMaker.makeSash(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.MakeUI.UBSimpleCtlMaker.makeSash(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.MakeUI.UBSimpleCtlMaker.makeTab(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.MakeUI.UBSimpleCtlMaker.makeTab(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.MakeUI.UBSimpleCtlMaker.makeTab(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+AppMng.BUC_UID_Manage.createContents(BUC_UID_Manage.java:105)
+org.eclipse.jface.window.Window.create(Window.java:426)
+org.eclipse.jface.window.Window.open(Window.java:785)
+AppMng.BUC_UID_Manage.main(BUC_UID_Manage.java:83)
+13/03/22 16:44:15 严重 UBProcessor getScreen #-1 -> 创建屏幕时异常!! ucv=uid2000 培训考核模仿
+java.lang.NullPointerException
+UB.MakeUI.UBTableMaker.setTableColumn(Unknown Source)
+UB.MakeUI.UBTableMaker.creatTableHead(Unknown Source)
+UB.MakeUI.UBTableMaker.setUp(Unknown Source)
+UB.MakeUI.UBTableMaker.make(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.MakeUI.UBSimpleCtlMaker.makeSash(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.MakeUI.UBSimpleCtlMaker.makeSash(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.MakeUI.UBSimpleCtlMaker.makeTab(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.MakeUI.UBSimpleCtlMaker.makeTab(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.MakeUI.UBSimpleCtlMaker.makeTab(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+AppMng.BUC_UID_Manage.createContents(BUC_UID_Manage.java:105)
+org.eclipse.jface.window.Window.create(Window.java:426)
+org.eclipse.jface.window.Window.open(Window.java:785)
+AppMng.BUC_UID_Manage.main(BUC_UID_Manage.java:83)
+13/03/22 16:46:06 严重 UBProcessor getScreen #-1 -> 创建屏幕时异常!! ucv=uid2000 培训考核模仿
+java.lang.NullPointerException
+UB.MakeUI.UBTableMaker.setTableColumn(Unknown Source)
+UB.MakeUI.UBTableMaker.creatTableHead(Unknown Source)
+UB.MakeUI.UBTableMaker.setUp(Unknown Source)
+UB.MakeUI.UBTableMaker.make(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.MakeUI.UBSimpleCtlMaker.makeSash(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.MakeUI.UBSimpleCtlMaker.makeSash(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.MakeUI.UBSimpleCtlMaker.makeTab(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.MakeUI.UBSimpleCtlMaker.makeTab(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.MakeUI.UBSimpleCtlMaker.makeTab(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+AppMng.BUC_UID_Manage.createContents(BUC_UID_Manage.java:105)
+org.eclipse.jface.window.Window.create(Window.java:426)
+org.eclipse.jface.window.Window.open(Window.java:785)
+AppMng.BUC_UID_Manage.main(BUC_UID_Manage.java:83)
+13/03/22 16:47:45 严重 UBProcessor getScreen #-1 -> 创建屏幕时异常!! ucv=uid2000 培训考核模仿
+java.lang.NullPointerException
+UB.MakeUI.UBTableMaker.setTableColumn(Unknown Source)
+UB.MakeUI.UBTableMaker.creatTableHead(Unknown Source)
+UB.MakeUI.UBTableMaker.setUp(Unknown Source)
+UB.MakeUI.UBTableMaker.make(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.MakeUI.UBSimpleCtlMaker.makeSash(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.MakeUI.UBSimpleCtlMaker.makeSash(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.MakeUI.UBSimpleCtlMaker.makeTab(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.MakeUI.UBSimpleCtlMaker.makeTab(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.MakeUI.UBSimpleCtlMaker.makeTab(Unknown Source)
+UB.Processor.UBViewPartMaker.makeVP(Unknown Source)
+UB.Processor.UBProcessor.prsShowList(Unknown Source)
+UB.Processor.UBProcessor.prsWV(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+AppMng.BUC_UID_Manage.createContents(BUC_UID_Manage.java:105)
+org.eclipse.jface.window.Window.create(Window.java:426)
+org.eclipse.jface.window.Window.open(Window.java:785)
+AppMng.BUC_UID_Manage.main(BUC_UID_Manage.java:83)
+13/03/25 14:58:22 严重 UBProcessor setCtlEditable #-1 -> org.eclipse.swt.SWTException: Widget is disposed
+org.eclipse.swt.SWT.error(SWT.java:3563)
+org.eclipse.swt.SWT.error(SWT.java:3481)
+org.eclipse.swt.SWT.error(SWT.java:3452)
+org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:325)
+org.eclipse.swt.widgets.Text.setEditable(Text.java:1522)
+UB.pub.UBUtility2.setCtlEditable(UBUtility2.java:348)
+UB.Processor.UBProcessor.setCtlEditable(Unknown Source)
+buc.trainning.yummyheng.TPractice.ctlInputAreaR(TPractice.java:192)
+buc.trainning.yummyheng.TPractice.doWork(TPractice.java:48)
+UB.EPL.UBButtonListener.sandToApp(Unknown Source)
+UB.EPL.UBButtonListener.handleEvent(Unknown Source)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:938)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3682)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3293)
+org.eclipse.jface.window.Window.runEventLoop(Window.java:820)
+org.eclipse.jface.window.Window.open(Window.java:796)
+manager.UID_Manage.main(UID_Manage.java:95)
+13/03/26 12:36:14 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 12:36:14 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 13:20:21 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 13:20:22 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 13:21:14 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 13:21:14 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 14:11:50 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 14:11:51 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 14:14:00 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 14:14:00 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 14:15:09 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 14:15:09 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 14:18:10 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 14:18:11 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 15:00:16 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 15:00:16 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 15:08:09 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 15:08:09 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 15:17:07 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 15:17:07 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 15:18:20 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 15:18:20 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 15:20:14 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 15:20:14 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 15:20:31 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 15:20:32 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 17:35:47 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 17:35:48 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 17:35:48 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 17:36:53 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 17:36:54 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 17:36:54 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 17:51:20 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 17:51:20 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 17:51:21 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:01:07 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:01:08 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:01:08 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:09 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:09 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:10 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:12 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:12 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:12 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:13 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:13 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:13 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:13 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:13 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:13 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:14 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:14 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:14 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:18 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:18 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:19 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:19 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:19 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:23 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:24 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:05:29 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:10 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:10 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:11 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:12 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:13 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:13 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:13 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:13 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:13 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:14 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:14 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:14 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:14 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:14 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:14 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:15 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:15 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:15 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:15 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:15 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:16 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:16 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:16 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:16 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:16 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:17 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:17 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:17 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:17 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:17 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:18 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:18 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:18 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:18 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:18 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:19 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:19 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:19 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:07:19 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:08:25 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:08:26 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:08:26 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:08:28 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:08:28 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:08:28 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:08:29 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:08:29 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:08:29 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:08:29 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:08:29 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:08:30 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:08:30 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:08:30 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:08:57 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:08:58 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:08:58 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:09:00 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:09:00 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:09:00 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:09:00 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:09:01 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:09:01 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:09:01 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:09:01 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:09:01 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:09:02 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:09:02 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:09:02 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:09:02 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:09:02 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:09:03 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:09:03 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:09:03 错误 UBSimpleCtlMaker addActLsn #-1 -> addraddr的监听器demoCustEngName@GUIlsn没有创建成功!!
+13/03/26 18:40:58 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮用户指定文件路径 UseCode 没有配置！！
+13/03/26 18:40:58 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮读取Excel生成表格数据 UseCode 没有配置！！
+13/03/26 18:40:58 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮表格数据导出到Excel UseCode 没有配置！！
+13/03/26 18:40:58 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮指定列类型导出到Excel UseCode 没有配置！！
+13/03/26 18:49:04 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮用户指定文件路径 UseCode 没有配置！！
+13/03/26 18:49:04 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮表格数据导出到Excel UseCode 没有配置！！
+13/03/26 18:49:04 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮指定列类型导出到Excel UseCode 没有配置！！
+13/03/26 18:51:11 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮用户指定文件路径 UseCode 没有配置！！
+13/03/26 18:51:11 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮表格数据导出到Excel UseCode 没有配置！！
+13/03/26 18:51:11 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮指定列类型导出到Excel UseCode 没有配置！！
+13/03/26 18:55:10 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮用户指定文件路径 UseCode 没有配置！！
+13/03/26 18:55:10 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮表格数据导出到Excel UseCode 没有配置！！
+13/03/26 18:55:10 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮指定列类型导出到Excel UseCode 没有配置！！
+13/03/26 19:03:25 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮用户指定文件路径 UseCode 没有配置！！
+13/03/26 19:03:25 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮表格数据导出到Excel UseCode 没有配置！！
+13/03/26 19:03:25 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮指定列类型导出到Excel UseCode 没有配置！！
+13/03/26 19:08:35 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮用户指定文件路径 UseCode 没有配置！！
+13/03/26 19:08:35 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮表格数据导出到Excel UseCode 没有配置！！
+13/03/26 19:08:35 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮指定列类型导出到Excel UseCode 没有配置！！
+13/03/26 19:32:43 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮表格数据导出到Excel UseCode 没有配置！！
+13/03/26 19:32:43 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮指定列类型导出到Excel UseCode 没有配置！！
+13/03/29 08:08:16 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮详细信息 UseCode 没有配置！！
+13/03/29 08:08:23 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮详细信息 UseCode 没有配置！！
+13/04/01 13:42:32 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/01 15:00:00 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/01 19:24:33 严重 UBProcessor toTreeSelection #-1 -> org.eclipse.core.runtime.AssertionFailedException: null argument:
+org.eclipse.core.runtime.Assert.isNotNull(Assert.java:84)
+org.eclipse.core.runtime.Assert.isNotNull(Assert.java:72)
+org.eclipse.jface.viewers.StructuredViewer.assertElementsNotNull(StructuredViewer.java:580)
+org.eclipse.jface.viewers.AbstractTreeViewer.setExpandedElements(AbstractTreeViewer.java:2276)
+UB.Processor.UBProcessor.toTreeSelection(Unknown Source)
+com.yummy.model.lsn.bond.BondInitPrs.gainBond(BondInitPrs.java:50)
+com.yummy.model.lsn.bond.BondInitPrs.doPrscess(BondInitPrs.java:33)
+UB.Processor.UBProcessor.doWVAfterPrs(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:167)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:137)
+pub.UcvWindow.createContents(UcvWindow.java:81)
+pub.UcvWindow.open(UcvWindow.java:41)
+open.YummyTree_UID_Opening.main(YummyTree_UID_Opening.java:20)
+13/04/02 08:26:41 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/02 09:20:47 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/02 11:28:24 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮修改 UseCode 没有配置！！
+13/04/02 13:13:29 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮修改 UseCode 没有配置！！
+13/04/02 13:15:10 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮修改 UseCode 没有配置！！
+13/04/02 13:16:59 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮修改 UseCode 没有配置！！
+13/04/02 13:17:39 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮修改 UseCode 没有配置！！
+13/04/02 13:31:53 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootMainButtonWV未找到！ 
+13/04/02 13:32:27 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootMainButtonWV未找到！ 
+13/04/02 13:43:03 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮重置 UseCode 没有配置！！
+13/04/02 13:43:25 错误 UBSimpleCtlMaker makeButton #-1 -> 按钮重置 UseCode 没有配置！！
+13/04/02 13:55:14 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/02 13:57:01 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/02 13:57:43 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/02 13:57:47 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/02 13:57:58 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/02 13:58:02 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/02 13:58:30 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/02 13:58:41 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/02 14:27:35 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/02 15:04:10 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/02 16:16:57 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/02 17:29:18 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyMain01001指定的风格名称First不存在!!!
+13/04/02 17:30:45 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyMain01001指定的风格名称First不存在!!!
+13/04/02 17:31:35 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyMain01001指定的风格名称First不存在!!!
+13/04/02 17:34:11 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyMain01001指定的风格名称First不存在!!!
+13/04/02 18:31:53 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyMain01001指定的风格名称First不存在!!!
+13/04/02 18:32:25 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyMain01001指定的风格名称First不存在!!!
+13/04/02 18:33:21 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyMain01001指定的风格名称First不存在!!!
+13/04/02 18:35:40 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyMain01001指定的风格名称First不存在!!!
+13/04/02 18:38:24 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyMain01001指定的风格名称First不存在!!!
+13/04/02 18:39:44 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyMain01001指定的风格名称First不存在!!!
+13/04/02 18:40:51 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyMain01001指定的风格名称First不存在!!!
+13/04/02 18:59:22 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/02 19:00:45 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/02 19:00:47 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/02 19:00:59 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/02 19:19:11 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyMain01004指定的风格名称Add不存在!!!
+13/04/02 19:20:38 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyMain01004指定的风格名称Add不存在!!!
+13/04/02 19:32:13 严重 UBProcessor toTreeSelection #-1 -> org.eclipse.core.runtime.AssertionFailedException: null argument:
+org.eclipse.core.runtime.Assert.isNotNull(Assert.java:84)
+org.eclipse.core.runtime.Assert.isNotNull(Assert.java:72)
+org.eclipse.jface.viewers.StructuredViewer.assertElementsNotNull(StructuredViewer.java:580)
+org.eclipse.jface.viewers.AbstractTreeViewer.setExpandedElements(AbstractTreeViewer.java:2276)
+UB.Processor.UBProcessor.toTreeSelection(Unknown Source)
+com.yummy.model.lsn.bond.BondInitPrs.gainBond(BondInitPrs.java:50)
+com.yummy.model.lsn.bond.BondInitPrs.doPrscess(BondInitPrs.java:33)
+UB.Processor.UBProcessor.doWVAfterPrs(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:167)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:137)
+pub.UcvWindow.createContents(UcvWindow.java:81)
+pub.UcvWindow.open(UcvWindow.java:41)
+open.YummyTree_UID_Opening.main(YummyTree_UID_Opening.java:20)
+13/04/02 19:33:45 严重 UBProcessor toTreeSelection #-1 -> org.eclipse.core.runtime.AssertionFailedException: null argument:
+org.eclipse.core.runtime.Assert.isNotNull(Assert.java:84)
+org.eclipse.core.runtime.Assert.isNotNull(Assert.java:72)
+org.eclipse.jface.viewers.StructuredViewer.assertElementsNotNull(StructuredViewer.java:580)
+org.eclipse.jface.viewers.AbstractTreeViewer.setExpandedElements(AbstractTreeViewer.java:2276)
+UB.Processor.UBProcessor.toTreeSelection(Unknown Source)
+com.yummy.model.lsn.bond.BondInitPrs.gainBond(BondInitPrs.java:50)
+com.yummy.model.lsn.bond.BondInitPrs.doPrscess(BondInitPrs.java:33)
+UB.Processor.UBProcessor.doWVAfterPrs(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:167)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:137)
+pub.UcvWindow.createContents(UcvWindow.java:81)
+pub.UcvWindow.open(UcvWindow.java:41)
+open.YummyTree_UID_Opening.main(YummyTree_UID_Opening.java:20)
+13/04/02 19:34:42 严重 UBProcessor toTreeSelection #-1 -> org.eclipse.core.runtime.AssertionFailedException: null argument:
+org.eclipse.core.runtime.Assert.isNotNull(Assert.java:84)
+org.eclipse.core.runtime.Assert.isNotNull(Assert.java:72)
+org.eclipse.jface.viewers.StructuredViewer.assertElementsNotNull(StructuredViewer.java:580)
+org.eclipse.jface.viewers.AbstractTreeViewer.setExpandedElements(AbstractTreeViewer.java:2276)
+UB.Processor.UBProcessor.toTreeSelection(Unknown Source)
+com.yummy.model.lsn.bond.BondInitPrs.gainBond(BondInitPrs.java:50)
+com.yummy.model.lsn.bond.BondInitPrs.doPrscess(BondInitPrs.java:33)
+UB.Processor.UBProcessor.doWVAfterPrs(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:167)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:137)
+pub.UcvWindow.createContents(UcvWindow.java:81)
+pub.UcvWindow.open(UcvWindow.java:41)
+open.YummyTree_UID_Opening.main(YummyTree_UID_Opening.java:20)
+13/04/02 19:36:24 严重 UBProcessor toTreeSelection #-1 -> org.eclipse.core.runtime.AssertionFailedException: null argument:
+org.eclipse.core.runtime.Assert.isNotNull(Assert.java:84)
+org.eclipse.core.runtime.Assert.isNotNull(Assert.java:72)
+org.eclipse.jface.viewers.StructuredViewer.assertElementsNotNull(StructuredViewer.java:580)
+org.eclipse.jface.viewers.AbstractTreeViewer.setExpandedElements(AbstractTreeViewer.java:2276)
+UB.Processor.UBProcessor.toTreeSelection(Unknown Source)
+com.yummy.model.lsn.bond.BondInitPrs.gainBond(BondInitPrs.java:50)
+com.yummy.model.lsn.bond.BondInitPrs.doPrscess(BondInitPrs.java:33)
+UB.Processor.UBProcessor.doWVAfterPrs(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:167)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:137)
+pub.UcvWindow.createContents(UcvWindow.java:81)
+pub.UcvWindow.open(UcvWindow.java:41)
+open.YummyTree_UID_Opening.main(YummyTree_UID_Opening.java:20)
+13/04/02 19:39:46 严重 UBProcessor toTreeSelection #-1 -> org.eclipse.core.runtime.AssertionFailedException: null argument:
+org.eclipse.core.runtime.Assert.isNotNull(Assert.java:84)
+org.eclipse.core.runtime.Assert.isNotNull(Assert.java:72)
+org.eclipse.jface.viewers.StructuredViewer.assertElementsNotNull(StructuredViewer.java:580)
+org.eclipse.jface.viewers.AbstractTreeViewer.setExpandedElements(AbstractTreeViewer.java:2276)
+UB.Processor.UBProcessor.toTreeSelection(Unknown Source)
+com.yummy.model.lsn.bond.BondInitPrs.gainBond(BondInitPrs.java:50)
+com.yummy.model.lsn.bond.BondInitPrs.doPrscess(BondInitPrs.java:33)
+UB.Processor.UBProcessor.doWVAfterPrs(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:167)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:137)
+pub.UcvWindow.createContents(UcvWindow.java:81)
+pub.UcvWindow.open(UcvWindow.java:41)
+open.YummyTree_UID_Opening.main(YummyTree_UID_Opening.java:20)
+13/04/03 09:52:46 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/03 09:52:54 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 09:52:54 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 09:52:55 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 09:52:56 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/03 09:53:23 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 09:59:39 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/03 09:59:41 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:02:47 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/03 10:02:50 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:07:13 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/03 10:07:15 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:07:17 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/03 10:07:30 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/03 10:07:32 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:07:37 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:07:38 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:07:38 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:07:39 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:07:39 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:07:40 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:07:41 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:07:41 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:11:07 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:11:08 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:11:08 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:11:09 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:11:10 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:11:11 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/03 10:11:13 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:11:14 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:11:14 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:11:15 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:11:15 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:11:16 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:22:52 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:22:53 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:23:01 警告 UBProcessor changeTabItem #-1 -> 工作视图BondRootTab未找到！ 
+13/04/03 10:23:01 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 10:23:09 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 13:08:39 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/03 13:08:47 警告 UBProcessor changeTabItem #-1 -> 工作视图BondNodeTab未找到！ 
+13/04/07 17:45:18 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyMain01000指定的风格名称yummyMain01001IO不存在!!!
+13/04/07 17:48:44 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyMain01000指定的风格名称First不存在!!!
+13/04/07 17:54:14 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyMain01000指定的风格名称First不存在!!!
+13/04/07 18:08:31 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyMain01000指定的风格名称First不存在!!!
+13/04/07 18:09:39 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyMain01000指定的风格名称First不存在!!!
+13/04/07 18:15:05 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyMain01000指定的风格名称First不存在!!!
+13/04/07 18:37:35 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyMain01000指定的风格名称First不存在!!!
+13/04/08 19:20:45 严重 UBProcessor toTreeSelection #-1 -> org.eclipse.core.runtime.AssertionFailedException: null argument:
+org.eclipse.core.runtime.Assert.isNotNull(Assert.java:84)
+org.eclipse.core.runtime.Assert.isNotNull(Assert.java:72)
+org.eclipse.jface.viewers.StructuredViewer.assertElementsNotNull(StructuredViewer.java:580)
+org.eclipse.jface.viewers.AbstractTreeViewer.setExpandedElements(AbstractTreeViewer.java:2276)
+UB.Processor.UBProcessor.toTreeSelection(Unknown Source)
+com.yummy.model.lsn.bond.BondInitPrs.gainBond(BondInitPrs.java:50)
+com.yummy.model.lsn.bond.BondInitPrs.doPrscess(BondInitPrs.java:33)
+UB.Processor.UBProcessor.doWVAfterPrs(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:167)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:137)
+pub.UcvWindow.createContents(UcvWindow.java:81)
+pub.UcvWindow.open(UcvWindow.java:41)
+open.YummyTree_UID_Opening.main(YummyTree_UID_Opening.java:16)
+13/04/08 19:45:00 严重 UBProcessor toTreeSelection #-1 -> org.eclipse.core.runtime.AssertionFailedException: null argument:
+org.eclipse.core.runtime.Assert.isNotNull(Assert.java:84)
+org.eclipse.core.runtime.Assert.isNotNull(Assert.java:72)
+org.eclipse.jface.viewers.StructuredViewer.assertElementsNotNull(StructuredViewer.java:580)
+org.eclipse.jface.viewers.AbstractTreeViewer.setExpandedElements(AbstractTreeViewer.java:2276)
+UB.Processor.UBProcessor.toTreeSelection(Unknown Source)
+com.yummy.model.lsn.bond.BondInitPrs.gainBond(BondInitPrs.java:50)
+com.yummy.model.lsn.bond.BondInitPrs.doPrscess(BondInitPrs.java:33)
+UB.Processor.UBProcessor.doWVAfterPrs(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:167)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:137)
+pub.UcvWindow.createContents(UcvWindow.java:81)
+pub.UcvWindow.open(UcvWindow.java:41)
+open.YummyTree_UID_Opening.main(YummyTree_UID_Opening.java:16)
+13/04/08 19:45:39 严重 UBProcessor toTreeSelection #-1 -> org.eclipse.core.runtime.AssertionFailedException: null argument:
+org.eclipse.core.runtime.Assert.isNotNull(Assert.java:84)
+org.eclipse.core.runtime.Assert.isNotNull(Assert.java:72)
+org.eclipse.jface.viewers.StructuredViewer.assertElementsNotNull(StructuredViewer.java:580)
+org.eclipse.jface.viewers.AbstractTreeViewer.setExpandedElements(AbstractTreeViewer.java:2276)
+UB.Processor.UBProcessor.toTreeSelection(Unknown Source)
+com.yummy.model.lsn.bond.BondInitPrs.gainBond(BondInitPrs.java:50)
+com.yummy.model.lsn.bond.BondInitPrs.doPrscess(BondInitPrs.java:33)
+UB.Processor.UBProcessor.doWVAfterPrs(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:167)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:137)
+pub.UcvWindow.createContents(UcvWindow.java:81)
+pub.UcvWindow.open(UcvWindow.java:41)
+open.YummyTree_UID_Opening.main(YummyTree_UID_Opening.java:16)
+13/04/11 15:43:40 错误 UBSimpleCtlMaker addPrsLsn #-1 -> 按钮提交 UseCode 没有配置！！
+13/04/11 15:45:03 错误 UBSimpleCtlMaker addPrsLsn #-1 -> 按钮提交 UseCode 没有配置！！
+13/04/11 15:47:20 错误 UBSimpleCtlMaker addPrsLsn #-1 -> 按钮提交 UseCode 没有配置！！
+13/04/11 15:47:23 错误 UBSimpleCtlMaker addPrsLsn #-1 -> 按钮提交 UseCode 没有配置！！
+13/04/11 15:47:46 错误 UBSimpleCtlMaker addPrsLsn #-1 -> 按钮提交 UseCode 没有配置！！
+13/04/11 19:05:01 错误 UBSimpleCtlMaker addPrsLsn #-1 -> 按钮提交 UseCode 没有配置！！
+13/04/11 19:35:52 错误 UBSimpleCtlMaker addPrsLsn #-1 -> 按钮提交 UseCode 没有配置！！
+13/04/18 14:08:23 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyDB01001指定的风格名称SearchDSD不存在!!!
+13/04/18 14:08:23 严重 UBPreProcessor updataSLbySD #-1 -> buc#CyummyDB01001指定的风格名称DetailDSD不存在!!!
+13/11/19 16:49:14 严重 UBProcessor setCtlEditable #-1 -> org.eclipse.swt.SWTException: Widget is disposed
+org.eclipse.swt.SWT.error(SWT.java:4282)
+org.eclipse.swt.SWT.error(SWT.java:4197)
+org.eclipse.swt.SWT.error(SWT.java:4168)
+org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+org.eclipse.swt.widgets.Text.setEditable(Text.java:1710)
+UB.pub.UBUtility2.setCtlEditable(UBUtility2.java:348)
+UB.Processor.UBProcessor.setCtlEditable(Unknown Source)
+buc.trainning.yummyheng.TPractice.ctlInputAreaR(TPractice.java:427)
+buc.trainning.yummyheng.TPractice.doWork(TPractice.java:87)
+UB.EPL.UBButtonListener.sandToApp(Unknown Source)
+UB.EPL.UBButtonListener.handleEvent(Unknown Source)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+com.test.shell.TestShell.main(TestShell.java:53)
+13/11/19 16:49:17 严重 UBProcessor setCtlEditable #-1 -> org.eclipse.swt.SWTException: Widget is disposed
+org.eclipse.swt.SWT.error(SWT.java:4282)
+org.eclipse.swt.SWT.error(SWT.java:4197)
+org.eclipse.swt.SWT.error(SWT.java:4168)
+org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+org.eclipse.swt.widgets.Control.setEnabled(Control.java:3266)
+UB.pub.UBUtility2.setCtlEditable(UBUtility2.java:341)
+UB.Processor.UBProcessor.setCtlEditable(Unknown Source)
+buc.trainning.yummyheng.TPractice.ctlInputAreaM(TPractice.java:442)
+buc.trainning.yummyheng.TPractice.doWork(TPractice.java:92)
+UB.EPL.UBButtonListener.sandToApp(Unknown Source)
+UB.EPL.UBButtonListener.handleEvent(Unknown Source)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+com.test.shell.TestShell.main(TestShell.java:53)
+13/12/24 15:38:35 严重 UBProcessor toTreeSelection #-1 -> org.eclipse.core.runtime.AssertionFailedException: null argument:
+org.eclipse.core.runtime.Assert.isNotNull(Assert.java:85)
+org.eclipse.core.runtime.Assert.isNotNull(Assert.java:73)
+org.eclipse.jface.viewers.StructuredViewer.assertElementsNotNull(StructuredViewer.java:599)
+org.eclipse.jface.viewers.AbstractTreeViewer.setExpandedElements(AbstractTreeViewer.java:2390)
+UB.Processor.UBProcessor.toTreeSelection(Unknown Source)
+com.yummy.bdesign.lsn.bond.BondInitPrs.gainBond(BondInitPrs.java:58)
+com.yummy.bdesign.lsn.bond.BondInitPrs.doPrscess(BondInitPrs.java:36)
+UB.Processor.UBProcessor.doWVAfterPrs(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:167)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:137)
+com.test.shell.UIController.openUCV(UIController.java:109)
+com.test.shell.TestShell$1.selectionChanged(TestShell.java:218)
+org.eclipse.jface.viewers.Viewer$2.run(Viewer.java:164)
+org.eclipse.jface.util.SafeRunnable$1.run(SafeRunnable.java:128)
+org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:162)
+org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2188)
+org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1211)
+org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1241)
+org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:239)
+org.eclipse.jface.util.OpenStrategy.access$4(OpenStrategy.java:233)
+org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:403)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+com.test.shell.TestShell.main(TestShell.java:53)
+14/01/15 16:22:05 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 16:22:12 严重 UBPreProcessor updataSLbySD #-1 -> tc.tcf.sys.beo.TNFUNC指定的风格名称Root不存在!!!
+14/01/15 16:35:57 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 16:51:45 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 16:55:24 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 16:59:20 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 17:02:25 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 17:09:41 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 18:00:33 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 18:03:15 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 18:05:05 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 18:21:20 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 18:35:34 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 18:49:34 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 19:02:04 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 19:08:46 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 19:19:35 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 19:23:23 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 19:52:46 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 20:17:33 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 20:19:15 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 20:21:08 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 20:24:51 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 20:32:14 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 20:44:29 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/15 20:47:31 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/16 09:07:23 严重 UBPreProcessor updataSLbySD #-1 -> 指定的风格名称Main不存在!!!
+14/01/20 18:24:06 严重 UBProcessor updataTreeDes #-1 -> java.lang.NullPointerException
+UB.Processor.UBProcessor.updataTreeDes(Unknown Source)
+com.yummy.client.pub.YummyClientUtil.getTree(YummyClientUtil.java:134)
+tc.tcf.sys.aem.SysInit.gainSysBond(SysInit.java:46)
+tc.tcf.sys.aem.SysInit.doPrscess(SysInit.java:37)
+UB.Processor.UBProcessor.doWVInitPrs(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:167)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:137)
+com.test.shell.UIController.openUCV(UIController.java:109)
+com.test.shell.TestShell$1.selectionChanged(TestShell.java:218)
+org.eclipse.jface.viewers.Viewer$2.run(Viewer.java:164)
+org.eclipse.jface.util.SafeRunnable$1.run(SafeRunnable.java:128)
+org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:162)
+org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2188)
+org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1211)
+org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1241)
+org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:239)
+org.eclipse.jface.util.OpenStrategy.access$4(OpenStrategy.java:233)
+org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:403)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+com.test.shell.TestShell.main(TestShell.java:53)
+14/01/20 18:24:14 严重 UBProcessor doWVInitPrs #-1 -> java.lang.NullPointerException
+com.yummy.client.pub.YummyClientUtil.loadTestUCV(YummyClientUtil.java:180)
+com.yummy.client.pub.YummyClientUtil.getTree(YummyClientUtil.java:135)
+tc.tcf.sys.aem.SysInit.gainSysBond(SysInit.java:46)
+tc.tcf.sys.aem.SysInit.doPrscess(SysInit.java:37)
+UB.Processor.UBProcessor.doWVInitPrs(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:167)
+sgiSEC.UBUCManager.showUC(UBUCManager.java:137)
+com.test.shell.UIController.openUCV(UIController.java:109)
+com.test.shell.TestShell$1.selectionChanged(TestShell.java:218)
+org.eclipse.jface.viewers.Viewer$2.run(Viewer.java:164)
+org.eclipse.jface.util.SafeRunnable$1.run(SafeRunnable.java:128)
+org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:162)
+org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2188)
+org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1211)
+org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1241)
+org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:239)
+org.eclipse.jface.util.OpenStrategy.access$4(OpenStrategy.java:233)
+org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:403)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+com.test.shell.TestShell.main(TestShell.java:53)
+14/01/21 15:55:12 严重 UBProcessor updataTreeDes #-1 -> java.lang.NullPointerException
+UB.Processor.UBProcessor.updataTreeDes(Unknown Source)
+com.yummy.client.pub.YummyClientUtil.getTree(YummyClientUtil.java:134)
+tc.tcf.sys.aem.SysInitPrs.gainChoosePage(SysInitPrs.java:65)
+tc.tcf.sys.aem.SysInitPrs.doPrscess(SysInitPrs.java:44)
+UB.Processor.UBProcessor.doWVInitPrs(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+UB.DLG.UBDialogUseUID.createDialogArea(UBDialogUseUID.java:216)
+org.eclipse.jface.dialogs.Dialog.createContents(Dialog.java:760)
+org.eclipse.jface.window.Window.create(Window.java:431)
+org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1089)
+org.eclipse.jface.window.Window.open(Window.java:790)
+UB.Processor.UBProcessor.popupUID(Unknown Source)
+tc.tcf.sys.aem.SysBtnLsn.addFunc(SysBtnLsn.java:43)
+tc.tcf.sys.aem.SysBtnLsn.doWork(SysBtnLsn.java:29)
+UB.EPL.UBButtonListener.sandToApp(Unknown Source)
+UB.EPL.UBButtonListener.handleEvent(Unknown Source)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+com.test.shell.TestShell.main(TestShell.java:53)
+14/01/21 15:56:24 严重 UBProcessor updataTreeDes #-1 -> java.lang.NullPointerException
+UB.Processor.UBProcessor.updataTreeDes(Unknown Source)
+com.yummy.client.pub.YummyClientUtil.getTree(YummyClientUtil.java:134)
+tc.tcf.sys.aem.SysInitPrs.gainChoosePage(SysInitPrs.java:65)
+tc.tcf.sys.aem.SysInitPrs.doPrscess(SysInitPrs.java:44)
+UB.Processor.UBProcessor.doWVInitPrs(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+UB.DLG.UBDialogUseUID.createDialogArea(UBDialogUseUID.java:216)
+org.eclipse.jface.dialogs.Dialog.createContents(Dialog.java:760)
+org.eclipse.jface.window.Window.create(Window.java:431)
+org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1089)
+org.eclipse.jface.window.Window.open(Window.java:790)
+UB.Processor.UBProcessor.popupUID(Unknown Source)
+tc.tcf.sys.aem.SysBtnLsn.addFunc(SysBtnLsn.java:43)
+tc.tcf.sys.aem.SysBtnLsn.doWork(SysBtnLsn.java:29)
+UB.EPL.UBButtonListener.sandToApp(Unknown Source)
+UB.EPL.UBButtonListener.handleEvent(Unknown Source)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+com.test.shell.TestShell.main(TestShell.java:53)
+14/01/21 16:02:53 严重 UBProcessor updataTreeDes #-1 -> java.lang.NullPointerException
+UB.Processor.UBProcessor.updataTreeDes(Unknown Source)
+com.yummy.client.pub.YummyClientUtil.getTree(YummyClientUtil.java:134)
+tc.tcf.sys.aem.SysInitPrs.gainChoosePage(SysInitPrs.java:65)
+tc.tcf.sys.aem.SysInitPrs.doPrscess(SysInitPrs.java:44)
+UB.Processor.UBProcessor.doWVInitPrs(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+UB.DLG.UBDialogUseUID.createDialogArea(UBDialogUseUID.java:216)
+org.eclipse.jface.dialogs.Dialog.createContents(Dialog.java:760)
+org.eclipse.jface.window.Window.create(Window.java:431)
+org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1089)
+org.eclipse.jface.window.Window.open(Window.java:790)
+UB.Processor.UBProcessor.popupUID(Unknown Source)
+tc.tcf.sys.aem.SysBtnLsn.addFunc(SysBtnLsn.java:43)
+tc.tcf.sys.aem.SysBtnLsn.doWork(SysBtnLsn.java:29)
+UB.EPL.UBButtonListener.sandToApp(Unknown Source)
+UB.EPL.UBButtonListener.handleEvent(Unknown Source)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+com.test.shell.TestShell.main(TestShell.java:53)
+14/01/21 16:04:01 严重 UBProcessor updataTreeDes #-1 -> java.lang.NullPointerException
+UB.Processor.UBProcessor.updataTreeDes(Unknown Source)
+com.yummy.client.pub.YummyClientUtil.getTree(YummyClientUtil.java:134)
+tc.tcf.sys.aem.SysInitPrs.gainChoosePage(SysInitPrs.java:65)
+tc.tcf.sys.aem.SysInitPrs.doPrscess(SysInitPrs.java:44)
+UB.Processor.UBProcessor.doWVInitPrs(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+UB.DLG.UBDialogUseUID.createDialogArea(UBDialogUseUID.java:216)
+org.eclipse.jface.dialogs.Dialog.createContents(Dialog.java:760)
+org.eclipse.jface.window.Window.create(Window.java:431)
+org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1089)
+org.eclipse.jface.window.Window.open(Window.java:790)
+UB.Processor.UBProcessor.popupUID(Unknown Source)
+tc.tcf.sys.aem.SysBtnLsn.addFunc(SysBtnLsn.java:43)
+tc.tcf.sys.aem.SysBtnLsn.doWork(SysBtnLsn.java:29)
+UB.EPL.UBButtonListener.sandToApp(Unknown Source)
+UB.EPL.UBButtonListener.handleEvent(Unknown Source)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+com.test.shell.TestShell.main(TestShell.java:53)
+14/01/21 16:15:22 严重 UBProcessor updataTreeDes #-1 -> java.lang.NullPointerException
+UB.Processor.UBProcessor.updataTreeDes(Unknown Source)
+com.yummy.client.pub.YummyClientUtil.getTree(YummyClientUtil.java:134)
+tc.tcf.sys.aem.SysInitPrs.gainChoosePage(SysInitPrs.java:65)
+tc.tcf.sys.aem.SysInitPrs.doPrscess(SysInitPrs.java:44)
+UB.Processor.UBProcessor.doWVInitPrs(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+UB.Processor.UBProcessor.getScreen(Unknown Source)
+UB.DLG.UBDialogUseUID.createDialogArea(UBDialogUseUID.java:216)
+org.eclipse.jface.dialogs.Dialog.createContents(Dialog.java:760)
+org.eclipse.jface.window.Window.create(Window.java:431)
+org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1089)
+org.eclipse.jface.window.Window.open(Window.java:790)
+UB.Processor.UBProcessor.popupUID(Unknown Source)
+tc.tcf.sys.aem.SysBtnLsn.addFunc(SysBtnLsn.java:43)
+tc.tcf.sys.aem.SysBtnLsn.doWork(SysBtnLsn.java:29)
+UB.EPL.UBButtonListener.sandToApp(Unknown Source)
+UB.EPL.UBButtonListener.handleEvent(Unknown Source)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+com.test.shell.TestShell.main(TestShell.java:53)
+14/01/21 19:24:54 错误 UBSimpleCtlMaker makeTab #-1 -> 选项卡控件的选择监听器buc.trainning.yummyheng.TSelectCard没有创建成功!!

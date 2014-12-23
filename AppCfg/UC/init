@@ -1,0 +1,22 @@
+******************************************************************************** 
+*  UC配置文件，该配置文件用于UC启动                                                                            
+*  作者：GL                                   创建日期:2010-10-11 15:43:47
+******************************************************************************** 
+*........1.........2.........3.........4.........5.........6 .  .  . 7 .  .  . 8         
+#101011_154347-oID/ style ts#CO153 
+#101011_154347-x5sV ucvcount 6 
+#101011_154347-+1VB locktime 600 
+#101011_154347-CtS/ welcome true 
+#101107_130323-B7yz update false 
+#101011_170132-UdKx cert false 
+#101011_154347-jYRJ debug true 
+#101012_201910-q5rN CheckVersion false 
+#101011_154347-2/wE Crypt false 
+#101011_154347-lBUI DldLngth 65536 
+#111207_142922-iv/T DldThreadNum 1
+#130320_152907-f0XD ParmFactoryForSvr false 
+#130320_152823-SKmP ParmFactoryUrl http://10.1.100.166:9080/UServer
+#101011_154347-WgNy IServerUrl http://12.12.1.87:9080/FileServer/services/fileService 
+#101011_154347-0khV DLDUrl http://12.12.1.87:9080/FileServer/services/fileService
+#111108_095048-IBVq UServerUrl http://10.14.192.44:9080/UServer
+#130329_164219-gFv3 ReflectMode true

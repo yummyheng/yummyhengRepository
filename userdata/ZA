@@ -1,0 +1,1896 @@
+<cdc.uap.user.NUAPUser>
+  <userInfo>
+    <userID>41637</userID>
+    <userCode>0000041637</userCode>
+    <loginName>ZA</loginName>
+    <userName>张靖康ZA</userName>
+    <gender>1</gender>
+    <cardType>1</cardType>
+    <cardCode>111</cardCode>
+    <identity>1</identity>
+    <operateUserCode>任凯</operateUserCode>
+    <operateUserName>0000008933</operateUserName>
+    <checkUserCode>董屹</checkUserCode>
+    <checkUserName>0000020008</checkUserName>
+    <lastUpdate>2008/00/18</lastUpdate>
+    <groupType>
+      <int>0</int>
+      <int>0</int>
+      <int>0</int>
+    </groupType>
+    <hisAccounts/>
+  </userInfo>
+  <accountInfo>
+    <cdc.uap.user.NAccountInfo>
+      <accountName>中国工商银行</accountName>
+      <accountShortName>工商银行</accountShortName>
+      <accountCode>A0001000001</accountCode>
+      <accountKind>01</accountKind>
+    </cdc.uap.user.NAccountInfo>
+    <cdc.uap.user.NAccountInfo>
+      <accountName>中国工商银行</accountName>
+      <accountShortName>工商银行</accountShortName>
+      <accountCode>A0001000002</accountCode>
+      <accountKind>02</accountKind>
+    </cdc.uap.user.NAccountInfo>
+  </accountInfo>
+  <customerInfo>
+    <customerID>7798</customerID>
+    <customerType>2</customerType>
+    <customerCode>0000007798</customerCode>
+    <cardCode>10000396-2</cardCode>
+    <fullName>中国工商银行</fullName>
+    <shortName>工商银行</shortName>
+    <organFlag>3</organFlag>
+    <cardType>02</cardType>
+    <customerAttribute>01</customerAttribute>
+    <customerKind>06</customerKind>
+    <ownership>09</ownership>
+    <groupIds/>
+    <registerAddress>N</registerAddress>
+    <registerArea>1100</registerArea>
+    <legalRepresentation>N</legalRepresentation>
+    <registerCapital>100000.0</registerCapital>
+    <actionDept>金融市场部资产负债管理部</actionDept>
+    <telephone1>66105136</telephone1>
+    <fax>66107884</fax>
+    <address>北京复兴门内大街55号</address>
+    <zipCode>100032</zipCode>
+    <email>N/A</email>
+    <isCorporation>1</isCorporation>
+    <needAuthz>3</needAuthz>
+    <registerDate class="sql-timestamp">1999-07-23 00:00:00.0</registerDate>
+    <operateUserCode>刘波</operateUserCode>
+    <operateUserName>0000020030</operateUserName>
+    <checkUserCode>戴武装</checkUserCode>
+    <checkUserName>0000020009</checkUserName>
+    <lastUpdate class="sql-timestamp">2008-09-08 14:46:03.0</lastUpdate>
+  </customerInfo>
+  <capitalAccs/>
+  <BlCxAccs/>
+  <BlCzAccs/>
+  <extMap>
+    <entry>
+      <string>loginTime</string>
+      <string>2011/01/21 16:05:38</string>
+    </entry>
+    <entry>
+      <string>IsNearExpire</string>
+      <string></string>
+    </entry>
+    <entry>
+      <string>userGtAccnt</string>
+      <string>A0001000002</string>
+    </entry>
+    <entry>
+      <string>FZBH</string>
+      <string></string>
+    </entry>
+    <entry>
+      <string>iUserAuthen</string>
+      <int>1</int>
+    </entry>
+    <entry>
+      <string>menu</string>
+      <cdc.uap.user.menu.UAPMenuRoot>
+        <SC>AppCatched</SC>
+        <SNo>0</SNo>
+        <Name>SPM系统菜单_古梁</Name>
+        <Text>SPM系统菜单_古梁</Text>
+        <Ann>SPM系统 测试使用菜单</Ann>
+        <Childs>
+          <cdc.uap.user.menu.UAPMenuGroup>
+            <SC>SPM10</SC>
+            <SNo>10</SNo>
+            <Name>项目管理</Name>
+            <Text>项目管理</Text>
+            <Ann>项目管理</Ann>
+            <Childs>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1013</SC>
+                <SNo>40</SNo>
+                <Code></Code>
+                <Name>项目名词定义(可用)</Name>
+                <Text>项目名词定义(可用)</Text>
+                <Ann>项目名词定义</Ann>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key>7001</Key>
+                  <Value>指令查询</Value>
+                  <TKey>指令查询</TKey>
+                  <Ann>菜单查询</Ann>
+                </FUNC__ID>
+                <URL>spm#UID10202020</URL>
+                <InitParm>GLOSSARY</InitParm>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1014</SC>
+                <SNo>50</SNo>
+                <Code></Code>
+                <Name>项目周期管理(可用)</Name>
+                <Text>项目周期管理(可用)</Text>
+                <Ann>项目周期管理</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key>7001</Key>
+                  <Value>指令查询</Value>
+                  <TKey>指令查询</TKey>
+                  <Ann>菜单查询</Ann>
+                </FUNC__ID>
+                <URL>spm#UID10200030</URL>
+                <InitParm>PERIOD</InitParm>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1015</SC>
+                <SNo>60</SNo>
+                <Code></Code>
+                <Name>项目收款计划(可用)</Name>
+                <Text>项目收款计划(可用)</Text>
+                <Ann>项目收款计划</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <URL>spm#UID10300010</URL>
+                <InitParm>GATHERING_PLAN</InitParm>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+            </Childs>
+            <Parent class="cdc.uap.user.menu.UAPMenuRoot" reference="../../.."/>
+            <Author>Admin</Author>
+            <CDate>2011/01/21 16:05:38</CDate>
+            <Mender>Admin</Mender>
+            <MDate>2011/01/21 16:05:38</MDate>
+            <SaveTime>0</SaveTime>
+            <Issue>false</Issue>
+            <Issued>false</Issued>
+            <IssueTimes>0</IssueTimes>
+            <EditTimes>1</EditTimes>
+            <NotCache>false</NotCache>
+            <PamKind>16</PamKind>
+            <PrsLoad>0</PrsLoad>
+            <CilentParm>0</CilentParm>
+            <New>true</New>
+            <FUNC__ID>
+              <Key></Key>
+              <Value></Value>
+              <TKey></TKey>
+              <Ann>已删除</Ann>
+            </FUNC__ID>
+            <MGPK>0</MGPK>
+            <MNPK>0</MNPK>
+          </cdc.uap.user.menu.UAPMenuGroup>
+          <cdc.uap.user.menu.UAPMenuGroup>
+            <SC>SPM11</SC>
+            <SNo>20</SNo>
+            <Name>统计分析</Name>
+            <Text>统计分析</Text>
+            <Ann>统计分析</Ann>
+            <Childs>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1110</SC>
+                <SNo>10</SNo>
+                <Code></Code>
+                <Name>计划进度查看(企业级)</Name>
+                <Text>计划进度查看(企业级)</Text>
+                <Ann>项目设立</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1111</SC>
+                <SNo>20</SNo>
+                <Code></Code>
+                <Name>人员状态查看(企业级)</Name>
+                <Text>人员状态查看(企业级)</Text>
+                <Ann>项目人员管理</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1112</SC>
+                <SNo>30</SNo>
+                <Code></Code>
+                <Name>人员工作量统计(企业级)</Name>
+                <Text>人员工作量统计(企业级)</Text>
+                <Ann>项目权限设定</Ann>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1113</SC>
+                <SNo>40</SNo>
+                <Code></Code>
+                <Name>项目费用统计(企业级)</Name>
+                <Text>项目费用统计(企业级)</Text>
+                <Ann>项目名词定义</Ann>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1114</SC>
+                <SNo>50</SNo>
+                <Code></Code>
+                <Name>项目报告(周报,月报)</Name>
+                <Text>项目报告(周报,月报)</Text>
+                <Ann>项目周期管理</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+            </Childs>
+            <Parent class="cdc.uap.user.menu.UAPMenuRoot" reference="../../.."/>
+            <CDate>2011/01/21 16:05:38</CDate>
+            <Mender>系统管理员2</Mender>
+            <MDate>2011/01/21 16:05:38</MDate>
+            <SaveTime>0</SaveTime>
+            <Issue>false</Issue>
+            <Issued>false</Issued>
+            <IssueTimes>0</IssueTimes>
+            <EditTimes>1</EditTimes>
+            <NotCache>false</NotCache>
+            <PamKind>16</PamKind>
+            <PrsLoad>0</PrsLoad>
+            <CilentParm>0</CilentParm>
+            <New>true</New>
+            <FUNC__ID>
+              <Key></Key>
+              <Value></Value>
+              <TKey></TKey>
+              <Ann></Ann>
+            </FUNC__ID>
+            <URL></URL>
+            <MGPK>0</MGPK>
+            <MNPK>0</MNPK>
+          </cdc.uap.user.menu.UAPMenuGroup>
+          <cdc.uap.user.menu.UAPMenuGroup>
+            <SC>SPM12</SC>
+            <SNo>30</SNo>
+            <Name>企业管理</Name>
+            <Text>企业管理</Text>
+            <Ann>企业管理</Ann>
+            <Childs>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1010</SC>
+                <SNo>10</SNo>
+                <Code></Code>
+                <Name>项目设立(可用)</Name>
+                <Text>项目设立(可用)</Text>
+                <Ann>项目设立spm#UID10200020</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <URL>spm#UID10200020</URL>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1219</SC>
+                <SNo>20</SNo>
+                <Code></Code>
+                <Name>项目工时预算管理(待完善)</Name>
+                <Text>项目工时预算管理(待完善)</Text>
+                <Ann>项目工时预算管理</Ann>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <URL>spm#UID20301010</URL>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1213</SC>
+                <SNo>30</SNo>
+                <Code></Code>
+                <Name>工时审核管理(可用)</Name>
+                <Text>工时审核管理(可用)</Text>
+                <Ann>工时审核管理</Ann>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <URL>spm#UID10202050</URL>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1011</SC>
+                <SNo>40</SNo>
+                <Code></Code>
+                <Name>项目人员管理(可用)</Name>
+                <Text>项目人员管理(可用)</Text>
+                <Ann>项目人员管理</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <URL>spm#UID10201040</URL>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1214</SC>
+                <SNo>50</SNo>
+                <Code></Code>
+                <Name>人员费用管理(可用)</Name>
+                <Text>人员费用管理(可用)</Text>
+                <Ann>人员费用管理</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <URL>spm#UID20303010</URL>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1211</SC>
+                <SNo>60</SNo>
+                <Code></Code>
+                <Name>岗位职称管理(可用)</Name>
+                <Text>岗位职称管理(可用)</Text>
+                <Ann>岗位职称管理</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <URL>spm#UID10201030</URL>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1218</SC>
+                <SNo>70</SNo>
+                <Code></Code>
+                <Name>员工职位管理(可用)</Name>
+                <Text>员工职位管理(可用)</Text>
+                <Ann>岗位职称管理</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <URL>spm#UID10201060</URL>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1217</SC>
+                <SNo>80</SNo>
+                <Code></Code>
+                <Name>职级管理(可用)</Name>
+                <Text>职级管理(可用)</Text>
+                <Ann>岗位职称管理</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <URL>spm#UID10201020</URL>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1216</SC>
+                <SNo>90</SNo>
+                <Code></Code>
+                <Name>客户管理(可用)</Name>
+                <Text>客户管理(可用)</Text>
+                <Ann>客户管理</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <URL>spm#UID10501010</URL>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1210</SC>
+                <SNo>100</SNo>
+                <Code></Code>
+                <Name>公司人员管理</Name>
+                <Text>公司人员管理</Text>
+                <Ann>公司人员管理</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1212</SC>
+                <SNo>110</SNo>
+                <Code></Code>
+                <Name>财务分类管理</Name>
+                <Text>财务分类管理</Text>
+                <Ann>财务分类管理</Ann>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1012</SC>
+                <SNo>120</SNo>
+                <Code></Code>
+                <Name>项目权限设定</Name>
+                <Text>项目权限设定</Text>
+                <Ann>项目权限设定</Ann>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1215</SC>
+                <SNo>130</SNo>
+                <Code></Code>
+                <Name>休假管理</Name>
+                <Text>休假管理</Text>
+                <Ann>休假管理</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1017</SC>
+                <SNo>140</SNo>
+                <Code></Code>
+                <Name>项目费用预算管理(可用)</Name>
+                <Text>项目费用预算管理(可用)</Text>
+                <Ann>项目预算管理</Ann>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <URL>spm#UID20302010</URL>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+            </Childs>
+            <Parent class="cdc.uap.user.menu.UAPMenuRoot" reference="../../.."/>
+            <CDate>2011/01/21 16:05:38</CDate>
+            <Mender>系统管理员1</Mender>
+            <MDate>2011/01/21 16:05:38</MDate>
+            <SaveTime>0</SaveTime>
+            <Issue>false</Issue>
+            <Issued>false</Issued>
+            <IssueTimes>0</IssueTimes>
+            <EditTimes>1</EditTimes>
+            <NotCache>false</NotCache>
+            <PamKind>16</PamKind>
+            <PrsLoad>0</PrsLoad>
+            <CilentParm>0</CilentParm>
+            <New>true</New>
+            <FUNC__ID>
+              <Key></Key>
+              <Value></Value>
+              <TKey></TKey>
+              <Ann></Ann>
+            </FUNC__ID>
+            <URL></URL>
+            <MGPK>0</MGPK>
+            <MNPK>0</MNPK>
+          </cdc.uap.user.menu.UAPMenuGroup>
+          <cdc.uap.user.menu.UAPMenuGroup>
+            <SC>SPM13</SC>
+            <SNo>40</SNo>
+            <Name>项目管理要素</Name>
+            <Text>项目管理要素</Text>
+            <Ann>项目管理要素</Ann>
+            <Childs>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1310</SC>
+                <SNo>10</SNo>
+                <Code></Code>
+                <Name>计划管理(可用)</Name>
+                <Text>计划管理(可用)</Text>
+                <Ann>计划管理</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <URL>spm#UID20101013</URL>
+                <InitParm>PLAN_Project</InitParm>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1311</SC>
+                <SNo>20</SNo>
+                <Code></Code>
+                <Name>需求管理(可用)</Name>
+                <Text>需求管理(可用)</Text>
+                <Ann>需求管理</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <InitParm>Require</InitParm>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1312</SC>
+                <SNo>30</SNo>
+                <Code></Code>
+                <Name>设计管理</Name>
+                <Text>设计管理</Text>
+                <Ann>设计管理</Ann>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1313</SC>
+                <SNo>40</SNo>
+                <Code></Code>
+                <Name>测试管理</Name>
+                <Text>测试管理</Text>
+                <Ann>测试管理</Ann>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1314</SC>
+                <SNo>50</SNo>
+                <Code></Code>
+                <Name>制品管理</Name>
+                <Text>制品管理</Text>
+                <Ann>制品管理</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1410</SC>
+                <SNo>60</SNo>
+                <Code></Code>
+                <Name>文档管理</Name>
+                <Text>文档管理</Text>
+                <Ann>文档管理</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1411</SC>
+                <SNo>70</SNo>
+                <Code></Code>
+                <Name>会议管理</Name>
+                <Text>会议管理</Text>
+                <Ann>会议管理</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1412</SC>
+                <SNo>80</SNo>
+                <Code></Code>
+                <Name>资源管理</Name>
+                <Text>资源管理</Text>
+                <Ann>资源管理</Ann>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <URL>buc#UID20000</URL>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1413</SC>
+                <SNo>90</SNo>
+                <Code></Code>
+                <Name>项目费用管理</Name>
+                <Text>项目费用管理</Text>
+                <Ann>项目费用管理</Ann>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1414</SC>
+                <SNo>100</SNo>
+                <Code></Code>
+                <Name>团队管理</Name>
+                <Text>团队管理</Text>
+                <Ann>团队管理</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1216</SC>
+                <SNo>110</SNo>
+                <Code></Code>
+                <Name>风险机会管理</Name>
+                <Text>风险机会管理</Text>
+                <Ann>风险机会管理</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+            </Childs>
+            <Parent class="cdc.uap.user.menu.UAPMenuRoot" reference="../../.."/>
+            <Author>Admin</Author>
+            <CDate>2011/01/21 16:05:38</CDate>
+            <Mender>系统管理员1</Mender>
+            <MDate>2011/01/21 16:05:38</MDate>
+            <SaveTime>0</SaveTime>
+            <Issue>false</Issue>
+            <Issued>false</Issued>
+            <IssueTimes>0</IssueTimes>
+            <EditTimes>1</EditTimes>
+            <NotCache>false</NotCache>
+            <PamKind>16</PamKind>
+            <PrsLoad>0</PrsLoad>
+            <CilentParm>0</CilentParm>
+            <New>true</New>
+            <FUNC__ID>
+              <Key></Key>
+              <Value></Value>
+              <TKey></TKey>
+              <Ann></Ann>
+            </FUNC__ID>
+            <URL></URL>
+            <MGPK>0</MGPK>
+            <MNPK>0</MNPK>
+          </cdc.uap.user.menu.UAPMenuGroup>
+          <cdc.uap.user.menu.UAPMenuGroup>
+            <SC>SPM14</SC>
+            <SNo>50</SNo>
+            <Name>项目状态查看</Name>
+            <Text>项目状态查看</Text>
+            <Ann>项目状态查看</Ann>
+            <Childs>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1410</SC>
+                <SNo>10</SNo>
+                <Code></Code>
+                <Name>计划进度查看(项目级)</Name>
+                <Text>计划进度查看(项目级)</Text>
+                <Ann>计划进度查看(项目级)</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1411</SC>
+                <SNo>20</SNo>
+                <Code></Code>
+                <Name>人员状态查看(项目级)</Name>
+                <Text>人员状态查看(项目级)</Text>
+                <Ann>人员状态查看(项目级)</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1412</SC>
+                <SNo>40</SNo>
+                <Code></Code>
+                <Name>项目报告(周报,月报)</Name>
+                <Text>项目报告(周报,月报)</Text>
+                <Ann>项目报告(周报,月报)</Ann>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <URL>buc#UID20000</URL>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1413</SC>
+                <SNo>40</SNo>
+                <Code></Code>
+                <Name>人员工作量统计(项目级)</Name>
+                <Text>人员工作量统计(项目级)</Text>
+                <Ann>人员工作量统计(项目级)</Ann>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1414</SC>
+                <SNo>50</SNo>
+                <Code></Code>
+                <Name>项目费用统计(项目级)</Name>
+                <Text>项目费用统计(项目级)</Text>
+                <Ann>项目费用统计(项目级)</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+            </Childs>
+            <Parent class="cdc.uap.user.menu.UAPMenuRoot" reference="../../.."/>
+            <Author>Admin</Author>
+            <CDate>2011/01/21 16:05:38</CDate>
+            <Mender>系统管理员1</Mender>
+            <MDate>2011/01/21 16:05:38</MDate>
+            <SaveTime>0</SaveTime>
+            <Issue>false</Issue>
+            <Issued>false</Issued>
+            <IssueTimes>0</IssueTimes>
+            <EditTimes>1</EditTimes>
+            <NotCache>false</NotCache>
+            <PamKind>16</PamKind>
+            <PrsLoad>0</PrsLoad>
+            <CilentParm>0</CilentParm>
+            <New>true</New>
+            <FUNC__ID>
+              <Key></Key>
+              <Value></Value>
+              <TKey></TKey>
+              <Ann></Ann>
+            </FUNC__ID>
+            <URL></URL>
+            <MGPK>0</MGPK>
+            <MNPK>0</MNPK>
+          </cdc.uap.user.menu.UAPMenuGroup>
+          <cdc.uap.user.menu.UAPMenuGroup>
+            <SC>SPM15</SC>
+            <SNo>60</SNo>
+            <Name>个人功能</Name>
+            <Text>个人功能</Text>
+            <Ann>个人功能</Ann>
+            <Childs>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1510</SC>
+                <SNo>10</SNo>
+                <Code></Code>
+                <Name>任务列表(可用)</Name>
+                <Text>任务列表(可用)</Text>
+                <Ann>任务列表</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <URL>spm#UID30200010</URL>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1511</SC>
+                <SNo>20</SNo>
+                <Code></Code>
+                <Name>个人计划(可用)</Name>
+                <Text>个人计划(可用)</Text>
+                <Ann>个人计划</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <URL>spm#UID30200020</URL>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1018</SC>
+                <SNo>30</SNo>
+                <Code></Code>
+                <Name>工时管理(可用)</Name>
+                <Text>工时管理(可用)</Text>
+                <Ann>人员工时录入管理(可用)</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <URL>spm#UID10202040</URL>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1019</SC>
+                <SNo>30</SNo>
+                <Code></Code>
+                <Name>修改密码(可用)</Name>
+                <Text>修改密码(可用)</Text>
+                <Ann>修改密码(可用)</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <URL>spm#UID10201061</URL>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1512</SC>
+                <SNo>40</SNo>
+                <Code></Code>
+                <Name>备忘录</Name>
+                <Text>备忘录</Text>
+                <Ann>备忘录</Ann>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <URL>buc#UID20000</URL>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1513</SC>
+                <SNo>50</SNo>
+                <Code></Code>
+                <Name>提醒</Name>
+                <Text>提醒</Text>
+                <Ann>提醒</Ann>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1514</SC>
+                <SNo>60</SNo>
+                <Code></Code>
+                <Name>培训学习</Name>
+                <Text>培训学习</Text>
+                <Ann>培训学习</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+            </Childs>
+            <Parent class="cdc.uap.user.menu.UAPMenuRoot" reference="../../.."/>
+            <Author>Admin</Author>
+            <CDate>2011/01/21 16:05:38</CDate>
+            <Mender>系统管理员1</Mender>
+            <MDate>2011/01/21 16:05:38</MDate>
+            <SaveTime>0</SaveTime>
+            <Issue>false</Issue>
+            <Issued>false</Issued>
+            <IssueTimes>0</IssueTimes>
+            <EditTimes>1</EditTimes>
+            <NotCache>false</NotCache>
+            <PamKind>16</PamKind>
+            <PrsLoad>0</PrsLoad>
+            <CilentParm>0</CilentParm>
+            <New>true</New>
+            <FUNC__ID>
+              <Key></Key>
+              <Value></Value>
+              <TKey></TKey>
+              <Ann></Ann>
+            </FUNC__ID>
+            <URL></URL>
+            <MGPK>0</MGPK>
+            <MNPK>0</MNPK>
+          </cdc.uap.user.menu.UAPMenuGroup>
+          <cdc.uap.user.menu.UAPMenuGroup>
+            <SC>SPM16</SC>
+            <SNo>70</SNo>
+            <Name>系统级功能</Name>
+            <Text>系统级功能</Text>
+            <Ann>系统级功能</Ann>
+            <Childs>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1610</SC>
+                <SNo>10</SNo>
+                <Code></Code>
+                <Name>历史数据查看</Name>
+                <Text>历史数据查看</Text>
+                <Ann>计划管理</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1611</SC>
+                <SNo>20</SNo>
+                <Code></Code>
+                <Name>数据同步程序</Name>
+                <Text>数据同步程序</Text>
+                <Ann>需求管理</Ann>
+                <Childs/>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1612</SC>
+                <SNo>30</SNo>
+                <Code></Code>
+                <Name>交流平台</Name>
+                <Text>交流平台</Text>
+                <Ann>设计管理</Ann>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+              <cdc.uap.user.menu.UAPMenuNode>
+                <SC>SPM1613</SC>
+                <SNo>40</SNo>
+                <Code></Code>
+                <Name>历史项目数据库</Name>
+                <Text>历史项目数据库</Text>
+                <Ann>测试管理</Ann>
+                <Parent class="cdc.uap.user.menu.UAPMenuGroup" reference="../../.."/>
+                <CDate>2011/01/21 16:05:38</CDate>
+                <MDate>2011/01/21 16:05:38</MDate>
+                <SaveTime>0</SaveTime>
+                <Issue>false</Issue>
+                <Issued>false</Issued>
+                <IssueTimes>0</IssueTimes>
+                <EditTimes>0</EditTimes>
+                <NotCache>false</NotCache>
+                <PamKind>16</PamKind>
+                <PrsLoad>0</PrsLoad>
+                <CilentParm>0</CilentParm>
+                <New>true</New>
+                <FUNC__ID>
+                  <Key></Key>
+                  <Value></Value>
+                  <TKey></TKey>
+                  <Ann>已删除</Ann>
+                </FUNC__ID>
+                <OPT__USERID>19990</OPT__USERID>
+                <CHK__USERID>19991</CHK__USERID>
+                <LASTUPDATE>2010-09-05 12:36:55</LASTUPDATE>
+              </cdc.uap.user.menu.UAPMenuNode>
+            </Childs>
+            <Parent class="cdc.uap.user.menu.UAPMenuRoot" reference="../../.."/>
+            <Author>Admin</Author>
+            <CDate>2011/01/21 16:05:38</CDate>
+            <Mender>系统管理员1</Mender>
+            <MDate>2011/01/21 16:05:38</MDate>
+            <SaveTime>0</SaveTime>
+            <Issue>false</Issue>
+            <Issued>false</Issued>
+            <IssueTimes>0</IssueTimes>
+            <EditTimes>1</EditTimes>
+            <NotCache>false</NotCache>
+            <PamKind>16</PamKind>
+            <PrsLoad>0</PrsLoad>
+            <CilentParm>0</CilentParm>
+            <New>true</New>
+            <FUNC__ID>
+              <Key></Key>
+              <Value></Value>
+              <TKey></TKey>
+              <Ann></Ann>
+            </FUNC__ID>
+            <URL></URL>
+            <MGPK>0</MGPK>
+            <MNPK>0</MNPK>
+          </cdc.uap.user.menu.UAPMenuGroup>
+        </Childs>
+        <ID>10010100</ID>
+        <Ap>cdc</Ap>
+        <SysCode>uap</SysCode>
+        <Author>Admin</Author>
+        <CDate>2011/01/21 16:05:38</CDate>
+        <MDate>2011/07/29 13:47:15</MDate>
+        <SaveTime>0</SaveTime>
+        <Issue>false</Issue>
+        <Issued>false</Issued>
+        <IssueTimes>0</IssueTimes>
+        <EditTimes>102</EditTimes>
+        <NotCache>false</NotCache>
+        <PamKind>64</PamKind>
+        <PrsLoad>0</PrsLoad>
+        <CilentParm>0</CilentParm>
+        <New>true</New>
+        <PK>0</PK>
+      </cdc.uap.user.menu.UAPMenuRoot>
+    </entry>
+    <entry>
+      <string>userGtAccntFullNames</string>
+      <string>中国工商银行</string>
+    </entry>
+    <entry>
+      <string>CertLastDays</string>
+      <string></string>
+    </entry>
+    <entry>
+      <string>userGtAccntShortNames</string>
+      <string>工商银行</string>
+    </entry>
+    <entry>
+      <string>CzFZBH</string>
+      <string>ZY99</string>
+    </entry>
+    <entry>
+      <string>iUserRight</string>
+      <int>3</int>
+    </entry>
+    <entry>
+      <string>userType</string>
+      <int>1</int>
+    </entry>
+  </extMap>
+  <NeedInfo>true</NeedInfo>
+  <NeedResetPwd>false</NeedResetPwd>
+  <NeedActivateCert>false</NeedActivateCert>
+</cdc.uap.user.NUAPUser>

@@ -1,0 +1,15 @@
+<com.test.model.YummyLabelText>
+  <labelText>≤‚ ‘:</labelText>
+  <gridLayout>
+    <numColumns>2</numColumns>
+    <makeColumnsEqualWidth>false</makeColumnsEqualWidth>
+    <marginWidth>5</marginWidth>
+    <marginHeight>5</marginHeight>
+    <marginLeft>0</marginLeft>
+    <marginTop>0</marginTop>
+    <marginRight>0</marginRight>
+    <marginBottom>0</marginBottom>
+    <horizontalSpacing>5</horizontalSpacing>
+    <verticalSpacing>5</verticalSpacing>
+  </gridLayout>
+</com.test.model.YummyLabelText>
