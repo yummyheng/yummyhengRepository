@@ -1,0 +1,4 @@
+source.. = Project_Mng/,\
+           SoftDesigner_Manager/
+bin.includes = META-INF/,\
+               .

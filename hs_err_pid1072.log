@@ -1,0 +1,198 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x6d8cbba7, pid=1072, tid=4092
+#
+# Java VM: Java HotSpot(TM) Client VM (10.0-b19 mixed mode windows-x86)
+# Problematic frame:
+# V  [jvm.dll+0x5bba7]
+#
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x01bdb800):  VMThread [stack: 0x01210000,0x01260000] [id=4092]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x000000b8
+
+Registers:
+EAX=0x01b64ef8, EBX=0x01b64f34, ECX=0x000000ac, EDX=0x6da46fa8
+ESP=0x0125f7b0, EBP=0x01b64ea8, ESI=0x07e534f0, EDI=0x07e534f0
+EIP=0x6d8cbba7, EFLAGS=0x00010293
+
+Top of Stack: (sp=0x0125f7b0)
+0x0125f7b0:   07e534f0 07e534f0 6d9f05f0 6d88cbab
+0x0125f7c0:   07e534f0 0125f808 0125f808 00000002
+0x0125f7d0:   012cff50 6d91cc21 07e535d0 01b64d00
+0x0125f7e0:   6d91c9f1 01b64ef8 6d8ec483 0125f808
+0x0125f7f0:   00000000 012cffa8 07e535d0 6d91c837
+0x0125f800:   0125f808 00000000 6da4f710 07e535d0
+0x0125f810:   00000000 6d9174f3 07e535d0 07e535d0
+0x0125f820:   00000000 0125f938 00000000 6d9b2173 
+
+Instructions: (pc=0x6d8cbba7)
+0x6d8cbb97:   cc cc cc cc cc cc cc cc cc 51 56 8b f1 8b 4e 04
+0x6d8cbba7:   8b 51 0c 83 c1 08 8b c2 c1 f8 02 85 d2 89 54 24 
+
+
+Stack: [0x01210000,0x01260000],  sp=0x0125f7b0,  free space=317k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x5bba7]
+
+VM_Operation (0x001aec2c): GenCollectForAllocation, mode: safepoint, requested by thread 0x01b61400
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x01c45000 JavaThread "äˆ" daemon [_thread_blocked, id=2780, stack(0x0bf70000,0x0bfc0000)]
+  0x01c44c00 JavaThread " À€ À€À€À€í¯¸ß’å¯ ß…î…ˆß’À€À€À€À€À€À€À€À€À€À€À€À€îŠ¸ß’å¯ ß…å¹˜ß’À€À€íœ€ß’À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€í±¨ß’î„ ß’í¯¸ß’í¯¸ß’í°ˆß’í§ ß’À€À€À€À€À€À€çƒ¨ß’À€À€îŒ˜ß’À€À€À€À€ç¿°ßÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ä€À€1À€À€á€Æ¶À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€åª¸ß…î€¨ß’å™°ß…í½°ß’îƒß’À€À€è‘€ßÅÀ€À€À€À€À€î€¨ß’í½°ß’í¸˜ß’í¶ˆß’íº°ß’À€À€À€À€î„«ß’ç‡ß†î…ˆß’À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€î†‹ß’à¦€ß…À€,+Ø‰.-À€À€î†«ß’á€ˆß…À€í§ ß’Gë–´î…ˆß’À€À€Hë–´î…ˆß’À€À€ç€€Ië–´î…ˆß’À€ç€€Jë–´î…ˆß’À€ç€€Kë–´î…ˆß’À€ç€€Lë–´î…ˆß’À€ç€€MÀ€À€À€À€À€À€À€NÂ·å€ß…À€À€è‚€OÀ€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€QÀ€À€À€À€À€À€À€RÀ€À€À€À€À€À€À€SÀ€À€À€À€À€À€À€TÀ€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€îŠ«ß’ì¨˜ß…î‘ß’À€À€À€À€À€î‹ƒß’Ñ€ß…À€x-MS950-HKSCSÀ€î‹«ß’ì¨˜ß…î’ß’À€À€À€À€À€îŒƒß’Ñ€ß…À€MS950_HKSCSÀ€À€À€îŒ«ß’ì¨˜ß…î“ß’À€À€À€À€À€îƒß’Ñ€ß…À€x-windows-950À€î«ß’ì¨˜ß…î”ß’À€À€À€À€À€îŽƒß’Ñ€ß…À€MS950À€îŽ›ß’ì¨˜ß…î•€ß’À€À€À€À€À€îŽ³ß’Ñ€ß…À€ms950À€î‹ß’ì¨˜ß…î•°ß’À€À€À€À€À€î£ß’Ñ€ß…À€windows-950À€À€À€î‹ß’ì¨˜ß…î–°ß’À€À€À€À€À€î£ß’Ñ€ß…À€x-windows-874À€î‘‹ß’ì¨˜ß…î—°ß’À€À€À€À€À€î‘£ß’Ñ€ß…À€MS874À€î‘»ß’ì¨˜ß…î˜ ß’À€À€À€À€À€î’“ß’Ñ€ß…À€ms874À€î’«ß’ì¨˜ß…î™ß’À€À€À€À€À€î“ƒß’Ñ€ß…À€ms-874î“›ß’ì¨˜ß…îš€ß’À€À€À€À€À€î“³ß’Ñ€ß…À€windows-874À€À€À€î”›ß’ì¨˜ß…î›€ß’À€À€À€À€À€î”³ß’Ñ€ß…À€x-EUC-TWÀ€À€î•“ß’ì¨˜ß…î›¸ß’À€À€À€À€À€î•«ß’Ñ€ß…À€EUC_TWî–ƒß’ì¨˜ß…îœ¨ß’À€À€À€À€À€î–›ß’Ñ€ß…À€euc_twî–³ß’ì¨˜ß…î˜ß’À€À€À€À€À€î—‹ß’Ñ€ß…À€euctwÀ€î—£ß’ì¨˜ß…îžˆß’À€À€À€À€À€î—»ß’Ñ€ß…À€cns11643À€À€î˜›ß’ì¨˜ß…îŸ€ß’À€À€À€À€À€î˜³ß’Ñ€ß…À€EUC-TWî™‹ß’ì¨˜ß…îŸ°ß’À€À€
+À€À€À€î™£ß’Ñ€ß…
+À€Big5-HKSCSîšƒß’ì¨˜ß…î ¨ß’À€À€
+À€À€À€îš›ß’Ñ€ß…
+À€Big5_HKSCSîš»ß’ì¨˜ß…î¡ ß’À€À€À€À€À€î›“ß’Ñ€ß…À€big5hkî›«ß’ì¨˜ß…î¢ß’À€À€
+À€À€À€îœƒß’Ñ€ß…
+À€big5-hkscsîœ£ß’ì¨˜ß…î£ˆß’À€À€À€À€À€îœ»ß’Ñ€ß…À€big5-hkscs:unicode3.0À€î³ß’ì¨˜ß…î¤˜ß’À€À€	À€À€À€îž‹ß’Ñ€ß…	À€big5hkscsÀ€îž«ß’ì¨˜ß…î¥ß’À€À€À€À€À€îŸƒß’Ñ€ß…À€x-Big5-SolarisîŸ«ß’ì¨˜ß…î¦ß’À€À€À€À€À€î ƒß’Ñ€ß…À€Big5_SolarisÀ€À€î «ß’ì¨˜ß…î§ daemon [_thread_blocked, id=3188, stack(0x0bf20000,0x0bf70000)]
+  0x01c37400 JavaThread "" daemon [_thread_in_native, id=3808, stack(0x0bed0000,0x0bf20000)]
+  0x01c36c00 JavaThread "À€À€À€À€À€å°›ß“Ñ€ß…À€cp964À€å°³ß“ì¨˜ß…å·˜ß“À€À€À€À€À€å±‹ß“Ñ€ß…À€ibm964å±£ß“ì¨˜ß…å¸ˆß“À€À€À€À€À€å±»ß“Ñ€ß…À€ibm-964À€À€À€å²›ß“ì¨˜ß…å¹€ß“À€À€À€À€À€å²³ß“Ñ€ß…À€964À€À€À€å³‹ß“ì¨˜ß…å¹°ß“À€À€
+À€À€À€å³£ß“Ñ€ß…
+À€x-IBM33722å´ƒß“ì¨˜ß…åº¨ß“À€À€À€À€À€å´›ß“Ñ€ß…À€IBM33722À€À€å´»ß“ì¨˜ß…å» ß“À€À€À€À€À€åµ“ß“Ñ€ß…À€cp33722À€À€À€åµ³ß“ì¨˜ß…å¼˜ß“À€À€À€À€À€å¶‹ß“Ñ€ß…À€ibm33722À€À€å¶«ß“ì¨˜ß…å½ß“À€À€	À€À€À€å·ƒß“Ñ€ß…	À€ibm-33722À€å·£ß“ì¨˜ß…å¾ˆß“À€À€À€À€À€å·»ß“Ñ€ß…À€ibm-5050À€À€å¸›ß“ì¨˜ß…å¿€ß“À€À€À€À€À€å¸³ß“Ñ€ß…À€ibm-33722_vascii_vpuaÀ€å¹«ß“ì¨˜ß…æ€ß“À€À€À€À€À€åºƒß“Ñ€ß…À€33722À€åº›ß“ì¨˜ß…æ€ß“À€À€À€À€À€åº³ß“Ñ€ß…À€IBM01140À€À€å»“ß“ì¨˜ß…æ¸ß“À€À€À€À€À€å»«ß“Ñ€ß…À€IBM1140À€À€À€å¼‹ß“ì¨˜ß…æ‚°ß“À€À€À€À€À€å¼£ß“Ñ€ß…À€cp1140å¼»ß“ì¨˜ß…æƒ ß“À€À€
+À€À€À€å½“ß“Ñ€ß…
+À€ccsid01140å½³ß“ì¨˜ß…æ„˜ß“À€À€À€À€À€å¾‹ß“Ñ€ß…À€cp01140À€À€À€å¾«ß“ì¨˜ß…æ…ß“À€À€À€À€À€å¿ƒß“Ñ€ß…À€1140À€À€å¿›ß“ì¨˜ß…æ†€ß“À€À€À€À€À€å¿³ß“Ñ€ß…À€IBM01141À€À€æ€“ß“ì¨˜ß…æ†¸ß“À€À€À€À€À€æ€«ß“Ñ€ß…À€IBM1141À€À€À€æ‹ß“ì¨˜ß…æ‡°ß“À€À€À€À€À€æ£ß“Ñ€ß…À€cp1141æ»ß“ì¨˜ß…æˆ ß“À€À€
+À€À€À€æ‚“ß“Ñ€ß…
+À€ccsid01141æ‚³ß“ì¨˜ß…æ‰˜ß“À€À€À€À€À€æƒ‹ß“Ñ€ß…À€cp01141À€À€À€æƒ«ß“ì¨˜ß…æŠß“À€À€À€À€À€æ„ƒß“Ñ€ß…À€1141À€À€æ„›ß“ì¨˜ß…æ‹€ß“À€À€À€À€À€æ„³ß“Ñ€ß…À€IBM01142À€À€æ…“ß“ì¨˜ß…æ‹¸ß“À€À€À€À€À€æ…«ß“Ñ€ß…À€IBM1142À€À€À€æ†‹ß“ì¨˜ß…æŒ°ß“À€À€À€À€À€æ†£ß“Ñ€ß…À€cp1142æ†»ß“ì¨˜ß…æ ß“À€À€
+À€À€À€æ‡“ß“Ñ€ß…
+À€ccsid01142æ‡³ß“ì¨˜ß…æŽ˜ß“À€À€À€À€À€æˆ‹ß“Ñ€ß…À€cp01142À€À€À€æˆ«ß“ì¨˜ß…æß“À€À€À€À€À€æ‰ƒß“Ñ€ß…À€1142À€À€æ‰›ß“ì¨˜ß…æ€ß“À€À€À€À€À€æ‰³ß“Ñ€ß…À€IBM01143À€À€æŠ“ß“ì¨˜ß…æ¸ß“À€À€À€À€À€æŠ«ß“Ñ€ß…À€IBM1143À€À€À€æ‹‹ß“ì¨˜ß…æ‘°ß“À€À€À€À€À€æ‹£ß“Ñ€ß…À€cp1143æ‹»ß“ì¨˜ß…æ’ ß“À€À€
+À€À€À€æŒ“ß“Ñ€ß…
+À€ccsid01143æŒ³ß“ì¨˜ß…æ“˜ß“À€À€À€À€À€æ‹ß“Ñ€ß…À€cp01143À€À€À€æ«ß“ì¨˜ß…æ”ß“À€À€À€À€À€æŽƒß“Ñ€ß…À€1143À€À€æŽ›ß“ì¨˜ß…æ•€ß“À€À€À€À€À€æŽ³ß“Ñ€ß…À€IBM01144À€À€æ“ß“ì¨˜ß…æ•¸ß“À€À€À€À€À€æ«ß“Ñ€ß…À€IBM1144À€À€À€æ‹ß“ì¨˜ß…æ–°ß“À€À€À€À€À€æ£ß“Ñ€ß…À€cp1144æ»ß“ì¨˜ß…æ— ß“À€À€
+À€À€À€æ‘“ß“Ñ€ß…
+À€ccsid01144æ‘³ß“ì¨˜ß…æ˜˜ß“À€À€À€À€À€æ’‹ß“Ñ€ß…À€cp01144À€À€À€æ’«ß“ì¨ [_thread_blocked, id=4072, stack(0x0be60000,0x0beb0000)]
+  0x01c33c00 JavaThread "æ‰€" [_thread_blocked, id=3096, stack(0x0bd90000,0x0bde0000)]
+  0x01c25c00 JavaThread " À€ À€À€À€í¯¸ß’å¯ ß…î…ˆß’À€À€À€À€À€À€À€À€À€À€À€À€îŠ¸ß’å¯ ß…å¹˜ß’À€À€íœ€ß’À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€í±¨ß’î„ ß’í¯¸ß’í¯¸ß’í°ˆß’í§ ß’À€À€À€À€À€À€çƒ¨ß’À€À€îŒ˜ß’À€À€À€À€ç¿°ßÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ä€À€1À€À€á€Æ¶À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€åª¸ß…î€¨ß’å™°ß…í½°ß’îƒß’À€À€è‘€ßÅÀ€À€À€À€À€î€¨ß’í½°ß’í¸˜ß’í¶ˆß’íº°ß’À€À€À€À€î„«ß’ç‡ß†î…ˆß’À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€î†‹ß’à¦€ß…À€,+Ø‰.-À€À€î†«ß’á€ˆß…À€í§ ß’Gë–´î…ˆß’À€À€Hë–´î…ˆß’À€À€ç€€Ië–´î…ˆß’À€ç€€Jë–´î…ˆß’À€ç€€Kë–´î…ˆß’À€ç€€Lë–´î…ˆß’À€ç€€MÀ€À€À€À€À€À€À€NÂ·å€ß…À€À€è‚€OÀ€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€QÀ€À€À€À€À€À€À€RÀ€À€À€À€À€À€À€SÀ€À€À€À€À€À€À€TÀ€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€îŠ«ß’ì¨˜ß…î‘ß’À€À€À€À€À€î‹ƒß’Ñ€ß…À€x-MS950-HKSCSÀ€î‹«ß’ì¨˜ß…î’ß’À€À€À€À€À€îŒƒß’Ñ€ß…À€MS950_HKSCSÀ€À€À€îŒ«ß’ì¨˜ß…î“ß’À€À€À€À€À€îƒß’Ñ€ß…À€x-windows-950À€î«ß’ì¨˜ß…î”ß’À€À€À€À€À€îŽƒß’Ñ€ß…À€MS950À€îŽ›ß’ì¨˜ß…î•€ß’À€À€À€À€À€îŽ³ß’Ñ€ß…À€ms950À€î‹ß’ì¨˜ß…î•°ß’À€À€À€À€À€î£ß’Ñ€ß…À€windows-950À€À€À€î‹ß’ì¨˜ß…î–°ß’À€À€À€À€À€î£ß’Ñ€ß…À€x-windows-874À€î‘‹ß’ì¨˜ß…î—°ß’À€À€À€À€À€î‘£ß’Ñ€ß…À€MS874À€î‘»ß’ì¨˜ß…î˜ ß’À€À€À€À€À€î’“ß’Ñ€ß…À€ms874À€î’«ß’ì¨˜ß…î™ß’À€À€À€À€À€î“ƒß’Ñ€ß…À€ms-874î“›ß’ì¨˜ß…îš€ß’À€À€À€À€À€î“³ß’Ñ€ß…À€windows-874À€À€À€î”›ß’ì¨˜ß…î›€ß’À€À€À€À€À€î”³ß’Ñ€ß…À€x-EUC-TWÀ€À€î•“ß’ì¨˜ß…î›¸ß’À€À€À€À€À€î•«ß’Ñ€ß…À€EUC_TWî–ƒß’ì¨˜ß…îœ¨ß’À€À€À€À€À€î–›ß’Ñ€ß…À€euc_twî–³ß’ì¨˜ß…î˜ß’À€À€À€À€À€î—‹ß’Ñ€ß…À€euctwÀ€î—£ß’ì¨˜ß…îžˆß’À€À€À€À€À€î—»ß’Ñ€ß…À€cns11643À€À€î˜›ß’ì¨˜ß…îŸ€ß’À€À€À€À€À€î˜³ß’Ñ€ß…À€EUC-TWî™‹ß’ì¨˜ß…îŸ°ß’À€À€
+À€À€À€î™£ß’Ñ€ß…
+À€Big5-HKSCSîšƒß’ì¨˜ß…î ¨ß’À€À€
+À€À€À€îš›ß’Ñ€ß…
+À€Big5_HKSCSîš»ß’ì¨˜ß…î¡ ß’À€À€À€À€À€î›“ß’Ñ€ß…À€big5hkî›«ß’ì¨˜ß…î¢ß’À€À€
+À€À€À€îœƒß’Ñ€ß…
+À€big5-hkscsîœ£ß’ì¨˜ß…î£ˆß’À€À€À€À€À€îœ»ß’Ñ€ß…À€big5-hkscs:unicode3.0À€î³ß’ì¨˜ß…î¤˜ß’À€À€	À€À€À€îž‹ß’Ñ€ß…	À€big5hkscsÀ€îž«ß’ì¨˜ß…î¥ß’À€À€À€À€À€îŸƒß’Ñ€ß…À€x-Big5-SolarisîŸ«ß’ì¨˜ß…î¦ß’À€À€À€À€À€î ƒß’Ñ€ß…À€Big5_SolarisÀ€À€î «ß’ì¨˜ß…î§ daemon [_thread_blocked, id=3600, stack(0x0bc50000,0x0bca0000)]
+  0x01bf4000 JavaThread "À€À€À€À€À€ã´‹ß“Ñ€ß…À€cp278À€ã´£ß“ì¨˜ß…ã»ˆß“À€À€À€À€À€ã´»ß“Ñ€ß…À€ibm278ãµ“ß“ì¨˜ß…ã»¸ß“À€À€À€À€À€ãµ«ß“Ñ€ß…À€ibm-278À€À€À€ã¶‹ß“ì¨˜ß…ã¼°ß“À€À€À€À€À€ã¶£ß“Ñ€ß…À€278À€À€À€ã¶»ß“ì¨˜ß…ã½ ß“À€À€	À€À€À€ã·“ß“Ñ€ß…	À€ebcdic-svÀ€ã·³ß“ì¨˜ß…ã¾˜ß“À€À€À€À€À€ã¸‹ß“Ñ€ß…À€ebcdic-cp-seÀ€À€ã¸³ß“ì¨˜ß…ã¿˜ß“À€À€À€À€À€ã¹‹ß“Ñ€ß…À€csIBM278À€À€ã¹«ß“ì¨˜ß…ä€ß“À€À€À€À€À€ãºƒß“Ñ€ß…À€IBM280ãº›ß“ì¨˜ß…ä€ß“À€À€À€À€À€ãº³ß“Ñ€ß…À€cp280À€ã»‹ß“ì¨˜ß…ä°ß“À€À€À€À€À€ã»£ß“Ñ€ß…À€ibm280ã»»ß“ì¨˜ß…ä‚ ß“À€À€À€À€À€ã¼“ß“Ñ€ß…À€ibm-280À€À€À€ã¼³ß“ì¨˜ß…äƒ˜ß“À€À€À€À€À€ã½‹ß“Ñ€ß…À€280À€À€À€ã½£ß“ì¨˜ß…ä„ˆß“À€À€À€À€À€ã½»ß“Ñ€ß…À€IBM284ã¾“ß“ì¨˜ß…ä„¸ß“À€À€À€À€À€ã¾«ß“Ñ€ß…À€cp284À€ã¿ƒß“ì¨˜ß…ä…¨ß“À€À€À€À€À€ã¿›ß“Ñ€ß…À€ibm284ã¿³ß“ì¨˜ß…ä†˜ß“À€À€À€À€À€ä€‹ß“Ñ€ß…À€ibm-284À€À€À€ä€«ß“ì¨˜ß…ä‡ß“À€À€À€À€À€äƒß“Ñ€ß…À€284À€À€À€ä›ß“ì¨˜ß…äˆ€ß“À€À€À€À€À€ä³ß“Ñ€ß…À€csIBM284À€À€ä‚“ß“ì¨˜ß…äˆ¸ß“À€À€À€À€À€ä‚«ß“Ñ€ß…À€cpibm284À€À€äƒ‹ß“ì¨˜ß…ä‰°ß“À€À€À€À€À€äƒ£ß“Ñ€ß…À€IBM285äƒ»ß“ì¨˜ß…äŠ ß“À€À€À€À€À€ä„“ß“Ñ€ß…À€cp285À€ä„«ß“ì¨˜ß…ä‹ß“À€À€À€À€À€ä…ƒß“Ñ€ß…À€ibm285ä…›ß“ì¨˜ß…äŒ€ß“À€À€À€À€À€ä…³ß“Ñ€ß…À€ibm-285À€À€À€ä†“ß“ì¨˜ß…äŒ¸ß“À€À€À€À€À€ä†«ß“Ñ€ß…À€285À€À€À€ä‡ƒß“ì¨˜ß…ä¨ß“À€À€À€À€À€ä‡›ß“Ñ€ß…À€ebcdic-cp-gbÀ€À€äˆƒß“ì¨˜ß…äŽ¨ß“À€À€	À€À€À€äˆ›ß“Ñ€ß…	À€ebcdic-gbÀ€äˆ»ß“ì¨˜ß…ä ß“À€À€À€À€À€ä‰“ß“Ñ€ß…À€csIBM285À€À€ä‰³ß“ì¨˜ß…ä˜ß“À€À€À€À€À€äŠ‹ß“Ñ€ß…À€cpibm285À€À€äŠ«ß“ì¨˜ß…ä‘ß“À€À€À€À€À€ä‹ƒß“Ñ€ß…À€IBM297ä‹›ß“ì¨˜ß…ä’€ß“À€À€À€À€À€ä‹³ß“Ñ€ß…À€cp297À€äŒ‹ß“ì¨˜ß…ä’°ß“À€À€À€À€À€äŒ£ß“Ñ€ß…À€ibm297äŒ»ß“ì¨˜ß…ä“ ß“À€À€À€À€À€ä“ß“Ñ€ß…À€ibm-297À€À€À€ä³ß“ì¨˜ß…ä”˜ß“À€À€À€À€À€äŽ‹ß“Ñ€ß…À€297À€À€À€äŽ£ß“ì¨˜ß…ä•ˆß“À€À€À€À€À€äŽ»ß“Ñ€ß…À€ebcdic-cp-frÀ€À€ä£ß“ì¨˜ß…ä–ˆß“À€À€À€À€À€ä»ß“Ñ€ß…À€cpibm297À€À€ä›ß“ì¨˜ß…ä—€ß“À€À€À€À€À€ä³ß“Ñ€ß…À€csIBM297À€À€ä‘“ß“ì¨˜ß…ä—¸ß“À€À€À€À€À€ä‘«ß“Ñ€ß…À€IBM420ä’ƒß“ì¨˜ß…ä˜¨ß“À€À€À€À€À€ä’›ß“Ñ€ß…À€cp420À€ä’³ß“ì¨˜ß…ä™˜ß“À€À€À€À€À€ä“‹ß“Ñ€ß…À€ibm420ä“£ß“ì¨˜ß…äšˆß“À€À€À€À€À€ä“»ß“Ñ€ß…À€ibm-420À€À€À€ä”›ß“ì¨˜ß…ä›€ß“À€À€À€À€À€ä”³ß“Ñ€ß…À€ebcdic-cp-ar1À€ä•›ß“ì¨˜ß…äœ€ß“À€À€À€À€À€ä•³ß“Ñ€ß…À€420À€À [_thread_blocked, id=1200, stack(0x01320000,0x01370000)]
+  0x01be2c00 JavaThread "" daemon [_thread_blocked, id=3804, stack(0x012d0000,0x01320000)]
+  0x01bde800 JavaThread "â©°" [_thread_blocked, id=1692, stack(0x01260000,0x012b0000)]
+  0x01b61400 JavaThread "main" [_thread_blocked, id=2380, stack(0x00160000,0x001b0000)]
+
+Other Threads:
+=>0x01bdb800 VMThread [stack: 0x01210000,0x01260000] [id=4092]
+  0x0c2a8c00 WatcherThread [stack: 0x0bfc0000,0x0c010000] [id=2352]
+
+VM state:at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x012cba20/0x000000ec] Threads_lock - owner thread: 0x01bdb800
+[0x01b60c70/0x0000012c] Heap_lock - owner thread: 0x01b61400
+
+Heap
+ def new generation   total 960K, used 64K [0x03c50000, 0x03d50000, 0x04130000)
+  eden space 896K,   0% used [0x03c50000, 0x03c50000, 0x03d30000)
+  from space 64K, 100% used [0x03d30000, 0x03d40000, 0x03d40000)
+  to   space 64K,   0% used [0x03d40000, 0x03d40000, 0x03d50000)
+ tenured generation   total 6608K, used 6576K [0x04130000, 0x047a4000, 0x07c50000)
+   the space 6608K,  99% used [0x04130000, 0x0479c278, 0x0459e800, 0x047a4000)
+ compacting perm gen  total 12288K, used 8475K [0x07c50000, 0x08850000, 0x0bc50000)
+   the space 12288K,  68% used [0x07c50000, 0x08496c58, 0x08480e00, 0x08850000)
+No shared spaces configured.
+
+Dynamic libraries:
+0x00400000 - 0x00423000 	C:\Program Files\Java\jdk1.6.0_05\bin\javaw.exe
+0x77b40000 - 0x77c7c000 	C:\Windows\SYSTEM32\ntdll.dll
+0x75f90000 - 0x76064000 	C:\Windows\system32\kernel32.dll
+0x75d10000 - 0x75d5a000 	C:\Windows\system32\KERNELBASE.dll
+0x76070000 - 0x76110000 	C:\Windows\system32\ADVAPI32.dll
+0x77340000 - 0x773ec000 	C:\Windows\system32\msvcrt.dll
+0x77d40000 - 0x77d59000 	C:\Windows\SYSTEM32\sechost.dll
+0x76d60000 - 0x76e01000 	C:\Windows\system32\RPCRT4.dll
+0x77020000 - 0x770e9000 	C:\Windows\system32\USER32.dll
+0x77ce0000 - 0x77d2e000 	C:\Windows\system32\GDI32.dll
+0x77d30000 - 0x77d3a000 	C:\Windows\system32\LPK.dll
+0x770f0000 - 0x7718d000 	C:\Windows\system32\USP10.dll
+0x776d0000 - 0x776ef000 	C:\Windows\system32\IMM32.DLL
+0x77600000 - 0x776cc000 	C:\Windows\system32\MSCTF.dll
+0x7c340000 - 0x7c396000 	C:\Program Files\Java\jdk1.6.0_05\jre\bin\msvcr71.dll
+0x6d870000 - 0x6dac0000 	C:\Program Files\Java\jdk1.6.0_05\jre\bin\client\jvm.dll
+0x73f00000 - 0x73f32000 	C:\Windows\system32\WINMM.dll
+0x75bc0000 - 0x75c0b000 	C:\Windows\system32\apphelp.dll
+0x6d320000 - 0x6d328000 	C:\Program Files\Java\jdk1.6.0_05\jre\bin\hpi.dll
+0x77d60000 - 0x77d65000 	C:\Windows\system32\PSAPI.DLL
+0x6d410000 - 0x6d439000 	C:\Program Files\Java\jdk1.6.0_05\jre\bin\jdwp.dll
+0x6d770000 - 0x6d776000 	C:\Program Files\Java\jdk1.6.0_05\jre\bin\npt.dll
+0x6d820000 - 0x6d82c000 	C:\Program Files\Java\jdk1.6.0_05\jre\bin\verify.dll
+0x6d3c0000 - 0x6d3df000 	C:\Program Files\Java\jdk1.6.0_05\jre\bin\java.dll
+0x6d860000 - 0x6d86f000 	C:\Program Files\Java\jdk1.6.0_05\jre\bin\zip.dll
+0x6d290000 - 0x6d297000 	C:\Program Files\Java\jdk1.6.0_05\jre\bin\dt_socket.dll
+0x773f0000 - 0x77425000 	C:\Windows\system32\WS2_32.dll
+0x776f0000 - 0x776f6000 	C:\Windows\system32\NSI.dll
+0x74130000 - 0x74140000 	C:\Windows\system32\NLAapi.dll
+0x756d0000 - 0x7570c000 	C:\Windows\System32\mswsock.dll
+0x75590000 - 0x755d4000 	C:\Windows\system32\DNSAPI.dll
+0x70900000 - 0x70908000 	C:\Windows\System32\winrnr.dll
+0x708f0000 - 0x70900000 	C:\Windows\system32\napinsp.dll
+0x708d0000 - 0x708e2000 	C:\Windows\system32\pnrpnsp.dll
+0x73d10000 - 0x73d2c000 	C:\Windows\system32\IPHLPAPI.DLL
+0x73d00000 - 0x73d07000 	C:\Windows\system32\WINNSI.DLL
+0x723f0000 - 0x72428000 	C:\Windows\System32\fwpuclnt.dll
+0x70d00000 - 0x70d06000 	C:\Windows\system32\rasadhlp.dll
+0x75220000 - 0x75225000 	C:\Windows\System32\wshtcpip.dll
+0x10000000 - 0x1006e000 	C:\Users\lenovo\.swt\lib\win32\x86\swt-win32-3740.dll
+0x77190000 - 0x772ec000 	C:\Windows\system32\ole32.dll
+0x77780000 - 0x7780f000 	C:\Windows\system32\OLEAUT32.dll
+0x77700000 - 0x7777b000 	C:\Windows\system32\comdlg32.dll
+0x77c80000 - 0x77cd7000 	C:\Windows\system32\SHLWAPI.dll
+0x74cf0000 - 0x74e8e000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16385_none_421189da2b7fabfc\COMCTL32.dll
+0x76110000 - 0x76d59000 	C:\Windows\system32\SHELL32.dll
+0x707a0000 - 0x707f1000 	C:\Windows\system32\WINSPOOL.DRV
+0x778a0000 - 0x77994000 	C:\Windows\system32\WININET.dll
+0x77010000 - 0x77013000 	C:\Windows\system32\Normaliz.dll
+0x77430000 - 0x77565000 	C:\Windows\system32\urlmon.dll
+0x75d80000 - 0x75e9c000 	C:\Windows\system32\CRYPT32.dll
+0x75d00000 - 0x75d0c000 	C:\Windows\system32\MSASN1.dll
+0x76e10000 - 0x77009000 	C:\Windows\system32\iertutil.dll
+0x74a60000 - 0x74aa0000 	C:\Windows\system32\uxtheme.dll
+0x746a0000 - 0x746b3000 	C:\Windows\system32\dwmapi.dll
+0x75c10000 - 0x75c1c000 	C:\Windows\system32\CRYPTBASE.dll
+0x74aa0000 - 0x74b95000 	C:\Windows\system32\propsys.dll
+0x77810000 - 0x77893000 	C:\Windows\system32\CLBCatQ.DLL
+0x6d620000 - 0x6d633000 	C:\Program Files\Java\jdk1.6.0_05\jre\bin\net.dll
+0x756c0000 - 0x756c6000 	C:\Windows\System32\wship6.dll
+0x6d640000 - 0x6d649000 	C:\Program Files\Java\jdk1.6.0_05\jre\bin\nio.dll
+0x0bd30000 - 0x0bd41000 	E:\workspace\SGILocalMng\myCryptJNI.dll
+0x65480000 - 0x65534000 	E:\workspace\SGILocalMng\myCrypt.dll
+
+VM Arguments:
+jvm_args: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:49219 -Dfile.encoding=GBK 
+java_command: open.Yummyheng_UID_Opening
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.6.0_05\
+CLASSPATH=ATALINA_HOME\common\lib\servlet-api;
+PATH=C:\Program Files\Java\jdk1.6.0_05\jre\bin;C:/Program Files/Java/jdk1.6.0_05/bin/../jre/bin/client;C:/Program Files/Java/jdk1.6.0_05/bin/../jre/bin;C:/Program Files/Java/jdk1.6.0_05/bin/../jre/lib/i386;C:\Program Files\Java\jdk1.6.0_05\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;ATALINA_HOME\bin;C:\Program Files\TortoiseSVN\bin;D:\ÎÄ±¾±à¼­\;D:\eclipse;
+USERNAME=lenovo
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 20 Model 2 Stepping 0, AuthenticAMD
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.1 Build 7600 
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 20 model 2 stepping 0, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, mmxext, sse4a
+
+Memory: 4k page, physical 1651060k(344508k free), swap 3302120k(1828988k free)
+
+vm_info: Java HotSpot(TM) Client VM (10.0-b19) for windows-x86 JRE (1.6.0_05-b13), built on Feb 22 2008 01:16:53 by "java_re" with MS VC++ 7.1
+
+time: Tue Jul 16 10:31:26 2013
+elapsed time: 946 seconds
+
